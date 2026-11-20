@@ -37,6 +37,29 @@
     }
   }
 
+  function directionsUrl(store) {
+    var destination =
+      typeof store.lat === "number"
+        ? store.lat + "," + store.lng
+        : encodeURIComponent(search.addressLines(store).join(", "));
+    return "https://www.google.com/maps/dir/?api=1&destination=" + destination;
+  }
+
+  function pinPopupElement(store) {
+    var wrap = document.createElement("div");
+    wrap.className = "pin-popup";
+    var name = document.createElement("div");
+    name.textContent = store.name;
+    var link = document.createElement("a");
+    link.href = directionsUrl(store);
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.textContent = cfg.messages.directionsLink;
+    wrap.appendChild(name);
+    wrap.appendChild(link);
+    return wrap;
+  }
+
   function pinIcon() {
     var svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
     svg.setAttribute("viewBox", "0 0 24 24");
@@ -77,21 +100,21 @@
       bullet.className = "bullet";
       bullet.setAttribute("aria-hidden", "true");
 
-      var body = document.createElement("div");
-      body.className = "body";
-      var top = document.createElement("div");
-      top.className = "topline";
-      top.appendChild(pinIcon());
+      var pinCol = document.createElement("div");
+      pinCol.className = "pincol";
+      pinCol.appendChild(pinIcon());
       if (showDistance && typeof row.distance === "number") {
         var distance = document.createElement("span");
         distance.className = "distance";
         distance.textContent = search.formatDistance(row.distance);
-        top.appendChild(distance);
+        pinCol.appendChild(distance);
       }
-      var name = document.createElement("span");
+
+      var body = document.createElement("div");
+      body.className = "body";
+      var name = document.createElement("div");
       name.className = "name";
       name.textContent = store.name;
-      top.appendChild(name);
 
       var address = document.createElement("div");
       address.className = "address";
@@ -101,25 +124,13 @@
         address.appendChild(lineEl);
       });
 
-      var directions = document.createElement("a");
-      directions.className = "directions";
-      directions.textContent = cfg.messages.directionsLink;
-      directions.target = "_blank";
-      directions.rel = "noopener noreferrer";
-      var destination =
-        typeof store.lat === "number"
-          ? store.lat + "," + store.lng
-          : encodeURIComponent(search.addressLines(store).join(", "));
-      directions.href = "https://www.google.com/maps/dir/?api=1&destination=" + destination;
-
-      body.appendChild(top);
+      body.appendChild(name);
       body.appendChild(address);
-      body.appendChild(directions);
       li.appendChild(bullet);
+      li.appendChild(pinCol);
       li.appendChild(body);
 
-      function choose(event) {
-        if (event && event.target === directions) return;
+      function choose() {
         state.selectedId = store.id;
         renderList(rows, showDistance);
         if (typeof store.lat === "number" && state.adapter) {
@@ -334,6 +345,7 @@
     overlay.draw = function () {};
     overlay.setMap(map);
     var markers = [];
+    var info = new google.maps.InfoWindow();
     var idleFn = function () {};
     map.addListener("idle", function () { idleFn(); });
 
@@ -399,7 +411,11 @@
               icon: icon,
               title: group[0].name,
             });
-            marker.addListener("click", function () { onPick(group[0]); });
+            marker.addListener("click", function () {
+              info.setContent(pinPopupElement(group[0]));
+              info.open({ map: map, anchor: marker });
+              onPick(group[0]);
+            });
             markers.push(marker);
             return;
           }
@@ -488,7 +504,11 @@
         groupByPixel(stores, project).forEach(function (group) {
           if (group.length === 1) {
             var marker = L.marker([group[0].lat, group[0].lng], { icon: icon, title: group[0].name });
-            marker.on("click", function () { onPick(group[0]); });
+            marker.on("click", function () {
+              marker.unbindPopup();
+              marker.bindPopup(pinPopupElement(group[0])).openPopup();
+              onPick(group[0]);
+            });
             marker.addTo(layer);
             return;
           }

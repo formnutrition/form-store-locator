@@ -29,9 +29,8 @@
     var lines = [];
     if (store.address1) lines.push(store.address1);
     if (store.address2) lines.push(store.address2);
-    var place = [store.city, store.state].filter(Boolean).join(", ");
-    if (store.postalCode) place = place ? place + " " + store.postalCode : store.postalCode;
-    if (place) lines.push(place);
+    var cityLine = [store.city, store.postalCode].filter(Boolean).join(", ");
+    if (cityLine) lines.push(cityLine);
     if (store.country) lines.push(store.country);
     return lines;
   }
