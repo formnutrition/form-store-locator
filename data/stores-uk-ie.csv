@@ -1,0 +1,832 @@
+Stockist ID,Name,Address line 1,Address line 2,City,State/Province,Postal code,Country,Phone,Website,Email,Logo URL,Notes,Priority,Visible
+loc_3g865ex7,Holland and Barrett,"Retail Unit 5, Guernsey Market",Market Street,St Peter Port,Guernsey,GY1 1HE,Channel Islands,,,,,,,Yes
+loc_4zr9my8w,Holland and Barrett,Unit 4,Central Plaza,Tralee,County Kerry,V92 DW74,Ireland,,,,,,,Yes
+loc_4knv597q,Holland and Barrett,Unit 30,Killarney Outlet Centre,Killarney,County Kerry,V93 HTP2,Ireland,,,,,,,Yes
+loc_46gpy265,Holland and Barrett,Unit 3 De La Salle Place,Link Road/Hopkins Road,Castlebar,Castlebar,F23 YP40,Ireland,,,,,,,Yes
+loc_3re952nq,Holland and Barrett,45 Pearse Street,,Ballina,County Mayo,F26 PX06,Ireland,,,,,,,Yes
+loc_48znwj96,Holland and Barrett,34 Shop Street,,Galway,County Galway,H91 WY2H,Ireland,,,,,,,Yes
+loc_47jwpe9q,Holland and Barrett,Unit 12a,Skycourt Shopping Centre,Shannon,County Clare,V14 FY75,Ireland,,,,,,,Yes
+loc_396j2gqy,Holland and Barrett,Unit 4x Library Mall,Crescent Shopping Centre,Dooradoyle,County Limerick,V94 V9X0,Ireland,,,,,,,Yes
+loc_3vzpk76m,Holland and Barrett,U2 Arthurs Quay Shopping Centre,,Limerick,County Limerick,V94 HT28,Ireland,,,,,,,Yes
+loc_3qg72n8y,Holland and Barrett,Unit 16 Parkway Shopping Centre,Dublin Road,Limerick,County Limerick,V94 PN80,Ireland,,,,,,,Yes
+loc_4n8p5yr5,Holland and Barrett,Unit 14 Blackpool Shopping Centre,Blackpool,Cork,County Cork,T23 TW28,Ireland,,,,,,,Yes
+loc_4y27mq6v,Holland and Barrett,Unit 32-32a,Wilton Shopping Centre,Cork,County Cork,T12 HP9Y,Ireland,,,,,,,Yes
+loc_4pkn5w6k,Holland and Barrett,Unit 18 Johnston Court,O'Connell Street,Sligo,County Sligo,F91 XPN2,Ireland,,,,,,,Yes
+loc_4wkwr96x,Holland and Barrett,43-44 Patrick Street,,Cork,County Cork,T12 FY05,Ireland,,,,,,,Yes
+loc_32597yk9,Holland and Barrett,Unit 19B Mahon Point Shopping Centre,Mahon Link Road,Cork,County Cork,T12 KD78,Ireland,,,,,,,Yes
+loc_3ezjgkpv,Holland and Barrett,"Tesco Superstore, Dunlo Town Centre",Harbour Road,Ballinasloe,County Galway,H53 A3C1,Ireland,,,,,,,Yes
+loc_3jx967je,Holland and Barrett,65-67 Pearse Street,,Nenagh,Country Tipperary,E45 C635,Ireland,,,,,,,Yes
+loc_45jyqnkn,Holland and Barrett,Unit 9,Golden Island Shopping Centre,Athlone,County Westmeath,N37 RP26,Ireland,,,,,,,Yes
+loc_3mny5qmv,Holland and Barrett,Unit N10,Thurles Shopping Centre,Thurles,County Tipperary,E41 YP57,Ireland,,,,,,,Yes
+loc_3g865mn7,Holland and Barrett,Tesco Extra,Rear Main Street,Longford,County Longford,N39 D196,Ireland,,,,,,,Yes
+loc_3xznmv66,Holland and Barrett,Unit 3 Centre Buildings,6 Lower Main Street,Letterkenny,County Donegal,F92 TK6H,Ireland,,,,,,,Yes
+loc_4zr9my6w,Holland and Barrett,85 O'Connell Street,,Clonmel,County Tipperary,E91 Y985,Ireland,,,,,,,Yes
+loc_4knv59gq,Holland and Barrett,Unit 18-19,Erneside Shopping Centre,Enniskillen,County Fermanagh,BT74 6JQ,Northern Ireland,,,,,,,Yes
+loc_3re9526q,Holland and Barrett,Unit 3,Main Street,Omagh,County Tyrone,BT78 7DZ,Northern Ireland,,,,,,,Yes
+loc_46gpy275,Holland and Barrett,Unit 8,The Bridge Centre,Tullamore,County Offaly,R35 FA09,Ireland,,,,,,,Yes
+loc_48znwjv6,Holland and Barrett,Harbour Place,,Mullingar,County Westmeath,N91 EK82,Ireland,,,,,,,Yes
+loc_47jwpexq,Holland and Barrett,Unit 14 Level 2,Foyleside Shopping Centre,Londonderry,County Londonderry,BT48 6XY,Northern Ireland,,,,,,,Yes
+loc_396j2gky,Holland and Barrett,Unit 43,Laois Shopping Cente,Portlaoise,County Laois,R32 PF74,Ireland,,,,,,,Yes
+loc_3vzpk7vm,Holland and Barrett,U14 Market Cross Shopping Centre,,Kilkenny,County Kilkenny,R95 RP29,Ireland,,,,,,,Yes
+loc_3qg72n5y,Holland and Barrett,Unit 20,MacDonagh Junction Shopping Centre,Kilkenny,County Kilkenny,R95 TY88,Ireland,,,,,,,Yes
+loc_4y27mqpv,Holland and Barrett,"Tesco Extra, Farronshoneen",,Ardkeen,Waterford,X91 HY71,Ireland,,,,,,,Yes
+loc_4pkn5wgk,Holland and Barrett,Unit 16-17,City Square Shopping Centre,Waterford,County Waterford,X91 PK02,Ireland,,,,,,,Yes
+loc_4n8p5ye5,Holland and Barrett,23 Fairgreen Shopping Centre,,Carlow,County Carlow,R93 X380,Ireland,,,,,,,Yes
+loc_32597ye9,Holland and Barrett,Tesco Portersland,Bosheed Road,New Ross,County Wexford,Y34 TC79,Ireland,,,,,,,Yes
+loc_3ezjgk7v,Holland and Barrett,Unit 12a,Whitewater Shopping Centre,Newbridge,County Kildare,W12 CD45,Ireland,,,,,,,Yes
+loc_3jx967pe,Holland and Barrett,8 Church Street,,Coleraine,County Londonderry,BT52 1AP,Northern Ireland,,,,,,,Yes
+loc_3g865mv7,Holland and Barrett,Unit 6,Naas Town Centre,Naas,County Kildare,W91 Y277,Ireland,,,,,,,Yes
+loc_45jyqn5n,Holland and Barrett,Unit 33 Meadow Lane Shopping Centre,Moneymore Road,Magherafelt,County Londonderry,BT45 6PR,Northern Ireland,,,,,,,Yes
+loc_3mny5q2v,Holland and Barrett,Unit 8,Manor Mills Shopping Centre,Maynooth,County Kildare,W23 Y721,Ireland,,,,,,,Yes
+loc_3xznmvy6,Holland and Barrett,Tesco Extra,"Carton Park, Dublin Road",Maynooth,County Kildare,W23 W6X3,Ireland,,,,,,,Yes
+loc_4zr9myww,Holland and Barrett,Tesco Extra - Wexford,Distillery Road,Wexford,County Wexford,Y35 AS98,Ireland,,,,,,,Yes
+loc_4knv59wq,Holland and Barrett,83 North Main Street,,Wexford,County Wexford,Y35 VEV7,Ireland,,,,,,,Yes
+loc_46gpy285,Holland and Barrett,Unit 14,High Street Mall,Portadown,County Armagh,BT62 1HX,Northern Ireland,,,,,,,Yes
+loc_3jx967ve,Holland and Barrett,Tesco - Liffey Valley,"Liffey Valley Shopping Centre, Fonthill Road",Dublin,County Dublin,D22 X682,Ireland,,,,,,,Yes
+loc_3re952mq,Holland and Barrett,Unit 20,Killegland Street,Ashbourne,County Meath,A84 YR15,Ireland,,,,,,,Yes
+loc_48znwjk6,Holland and Barrett,Unit 17 The Marshes Shopping Centre,Ramparts Road,Dundalk,County Louth,A91 KD27,Ireland,,,,,,,Yes
+loc_47jwpe8q,Holland and Barrett,"Unit 55, Liffey Valley Shopping Centre",Clondalkin,Dublin,County Dublin,D22 N6F4,Ireland,,,,,,,Yes
+loc_396j2g9y,Holland and Barrett,Unit 1A,Rushmere Shopping Centre,Craigavon,Country Amagh,BT64 1AA,Northern Ireland,,,,,,,Yes
+loc_3vzpk7xm,Holland and Barrett,U121 Blanchardstown Town Centre,,Dublin,County Dublin,D15 KR13,Ireland,,,,,,,Yes
+loc_4y27mq9v,Holland and Barrett,Unit 236A The Square Shopping Centre,Tallaght,Dublin,County Dublin,D24 K728,Ireland,,,,,,,Yes
+loc_4pkn5w2k,Holland and Barrett,Unit G06,Scotch Hall Shopping Centre,Drogheda,County Louth,A92 RX78,Ireland,,,,,,,Yes
+loc_3qg72ney,Holland and Barrett,"Tesco - Drogheda, Donomore Road",Matthews Lane,Drogheda,Louth,A92 X820,Ireland,,,,,,,Yes
+loc_4wkwr9qx,Holland and Barrett,Units 20-21,Monaghan Shopping Centre,Monaghan,Co Monaghan,H18 NF85,Ireland,,,,,,,Yes
+loc_4wkwr9zx,Holland and Barrett,Unit 4a,Buttercrane Shopping Centre,Newry,County Down,BT35 8HJ,Northern Ireland,,,,,,,Yes
+loc_4n8p5yw5,Holland and Barrett,Unit 10,Gorey Shopping Centre,Gorey,County Wexford,Y25 A300,Ireland,,,,,,,Yes
+loc_32597yj9,Holland and Barrett,Unit 53 The Outlet,Bridgewater Park,Banbridge,County Down,BT32 4GJ,Northern Ireland,,,,,,,Yes
+loc_3ezjgkmv,Holland and Barrett,Unit 55-57,Tower Centre,Ballymena,County Antrim,BT43 6AH,Northern Ireland,,,,,,,Yes
+loc_3g865mz7,Holland and Barrett,U69 Ilac Shopping Centre,,Dublin,County Dublin,D01 X582,Ireland,,,,,,,Yes
+loc_45jyqnmn,Holland and Barrett,Unit 23 Swan Centre,Rathmines Road Lower,Rathmines,County Dublin,D06 V9P6,Ireland,,,,,,,Yes
+loc_3mny5qpv,Holland and Barrett,17 Henry Street,,Dublin,County Dublin,D01 VH00,Ireland,,,,,,,Yes
+loc_3xznmv76,Holland and Barrett,Unit 115,St Stephens Green Shopping Centre,Dublin,County Dublin,D02 X462,Ireland,,,,,,,Yes
+loc_4zr9myvw,Holland and Barrett,75 Grafton Square,,Dublin,County Dublin,D02 YV32,Ireland,,,,,,,Yes
+loc_4knv59qq,Brown Thomas & Co,88-95 Grafton Stree,,Dublin 2,,D02 VF65,Ireland,,,,,,,Yes
+loc_46gpy2x5,Holland and Barrett,Unit 205 Omni Park Shopping Centre,Santry,Dublin,County Dublin,D09 Y437,Ireland,,,,,,,Yes
+loc_3re952jq,Holland and Barrett,Unit 27,Dundrum Town Centre,Dundrum,Dublin 16,D16 PN18,Ireland,,,,,,,Yes
+loc_47jwpemq,Holland and Barrett,Unit 19 Nutgrove Shopping Centre,Rathfarnham,Dublin,County Dublin,D14 PV21,Ireland,,,,,,,Yes
+loc_396j2gzy,Holland and Barrett,Unit H1,Swords Central Shopping Centre,Swords,County Dublin,K67 T1W2,Ireland,,,,,,,Yes
+loc_48znwj76,Holland and Barrett,Unit 3,Castle Shopping Centre,Antrim,County Antrim,BT41 4DN,Northern Ireland,,,,,,,Yes
+loc_3vzpk78m,Holland and Barrett,14 Northside Shopping Centre,,Coolock,County Dublin,D17 YY67,Ireland,,,,,,,Yes
+loc_3qg72nqy,Holland and Barrett,Unit 13,Millfield Shopping Centre,Balbriggan,County Dublin,K32 FV56,Ireland,,,,,,,Yes
+loc_4y27mqgv,Holland and Barrett,Unit 5 & 6 Clares Hall Shopping Centre,Malahide Road,Dublin,County Dublin,D17 K403,Ireland,,,,,,,Yes
+loc_4pkn5wvk,Holland and Barrett,U51 & U52 Blackrock Shopping Centre,Blackrock,Dublin,County Dublin,A94 X446,Ireland,,,,,,,Yes
+loc_4wkwr9ex,Holland and Barrett,U67 Donaghmede Shopping Centre,,Dublin,County Dublin,D13 P265,Ireland,,,,,,,Yes
+loc_4n8p5y75,Holland and Barrett,"Tesco Extra, Arklow Square",Wexford Road,Arklow,County Wicklow,Y14 NP59,Ireland,,,,,,,Yes
+loc_32597y29,Holland and Barrett,Unit 217,Dunlaoghaire Shopping Centre,Dunlaoghaire,County Dublin,A96 TH70,Ireland,,,,,,,Yes
+loc_3ezjgkrv,Holland and Barrett,24 Bow Street,,Lisburn,County Antrim,BT28 1AW,Northern Ireland,,,,,,,Yes
+loc_3jx967re,Holland and Barrett,Unit 13 Kennedy Centre,Falls Road,Belfast,County Antrim,BT11 9AE,Northern Ireland,,,,,,,Yes
+loc_45jyqn8n,Holland and Barrett,519-521b Lisburn Road,,Belfast,County Antrim,BT9 7GQ,Northern Ireland,,,,,,,Yes
+loc_3mny5qrv,Holland and Barrett,Unit 42,Castle Court Shopping Centre,Belfast,County Antrim,BT1 1DD,Northern Ireland,,,,,,,Yes
+loc_4zr9my5w,Holland and Barrett,30-34 Ann Street,,Belfast,Country Antrim,BT1 4EG,Northern Ireland,,,,,,,Yes
+loc_46gpy255,Holland and Barrett,66 The Abbey Centre,,Newtownabbey,County Antrim,BT37 9UH,Northern Ireland,,,,,,,Yes
+loc_4knv59rq,Holland and Barrett,Unit 4 Forestside Centre,,Belfast,County Antrim,BT8 6FX,Northern Ireland,,,,,,,Yes
+loc_3re952yq,Holland and Barrett,Unit 23a Connswater Shopping Centre,Bloomfield Avenue,Belfast,County Antrim,BT5 5DL,Northern Ireland,,,,,,,Yes
+loc_48znwjx6,Holland and Barrett,Unit 15a,Ards Shopping,Newtownards,County Down,BT23 4EU,Northern Ireland,,,,,,,Yes
+loc_47jwpekq,Holland and Barrett,Unit 3,Bloomfield Shopping Centre,Bangor,County Down,BT19 7HB,Northern Ireland,,,,,,,Yes
+loc_396j2g8y,Holland and Barrett,110 Market Jew Street,,Penzance,Cornwall,TR18 2LE,England,,,,,,,Yes
+loc_3vzpk7nm,Holland and Barrett,29 Trelowarren Street,,Camborne,Cornwall,TR14 8AD,England,,,,,,,Yes
+loc_3qg72nvy,Holland and Barrett,10 Bank Street,,Newquay,Cornwall,TR7 1JF,England,,,,,,,Yes
+loc_4y27mqjv,Holland and Barrett,48 Market Street,,Falmouth,Cornwall,TR11 3AJ,England,,,,,,,Yes
+loc_4pkn5w9k,Holland and Barrett,13 Pydar Street,,Truro,Cornwall,TR1 2AX,England,,,,,,,Yes
+loc_4wkwr92x,Holland and Barrett,Unit 16,Riverside Key,Haverfordwest,Pembrokeshire,SA61 2LJ,Wales,,,,,,,Yes
+loc_4n8p5y65,Holland and Barrett,19-21 Fore Street,,St Austell,Cornwall,PL25 5LG,England,,,,,,,Yes
+loc_32597yg9,Holland and Barrett,Unit 23,Hamilton Way,Greenock,Renfrewshire,PA15 1JJ,Scotland,,,,,,,Yes
+loc_3ezjgk2v,Holland and Barrett,8 Fore Street,,Bodmin,Cornwall,PL31 2HQ,England,,,,,,,Yes
+loc_3jx967me,Holland and Barrett,11 Rivergate,,Irvine,Ayrshire,KA12 8EH,Scotland,,,,,,,Yes
+loc_3g865mj7,Holland and Barrett,"Unit 14, Skye Square",Ayr Shopping Centre,Ayr,Ayrshire,KA7 1TP,Scotland,,,,,,,Yes
+loc_45jyqnxn,Holland and Barrett,61 High Street,,Dumbarton,Dunbartonshire,G82 1LS,Scotland,,,,,,,Yes
+loc_3mny5qkv,Holland and Barrett,30 Belle Vue,,Bude,Cornwall,EX23 8JS,England,,,,,,,Yes
+loc_3xznmve6,Holland and Barrett,8-10 Portland Street,,Kilmarnock,Ayrshire,KA1 1HZ,Scotland,,,,,,,Yes
+loc_4zr9mygw,Holland and Barrett,Unit 2,26-30 Strand Street,Douglas,Isle of Man,IM1 2EG,England,,,,,,,Yes
+loc_4knv59xq,Holland and Barrett,Unit 2,The Cross,Paisley,Renfrewshire,PA1 2AS,Scotland,,,,,,,Yes
+loc_46gpy2z5,Holland and Barrett,45 Sylvania Way,Clyde Shopping Centre,Clydebank,Dunbartonshire,G81 2RR,Scotland,,,,,,,Yes
+loc_3re952qq,Holland and Barrett,Unit 52 Intu Braehead Shopping Centre,King's Inch Road,Renfrew,Glasgow,G51 4BP,Scotland,,,,,,,Yes
+loc_48znwj86,Holland and Barrett,Unit W5,Barrhead Road,Glasgow,Lanarkshire,G53 6QR,Scotland,,,,,,,Yes
+loc_47jwpezq,Holland and Barrett,37a The Avenue at Mearns,250 Ayr Road,Newton Mearns,East Renfrewshire,G77 6EY,Scotland,,,,,,,Yes
+loc_396j2g7y,Holland and Barrett,14 Douglas Street,,Milngavie,Glasgow,G62 6PB,Scotland,,,,,,,Yes
+loc_3vzpk72m,Holland and Barrett,Unit 8,Merlins Walk Shopping Centre,Carmarthen,Carmarthenshire,SA31 3BN,Wales,,,,,,,Yes
+loc_3qg72n6y,Holland and Barrett,253 Byres Road,,Glasgow,Lanarkshire,G12 8UB,Scotland,,,,,,,Yes
+loc_4y27mqxv,Holland and Barrett,74 Kilmarnock Road,Shawlands,Glasgow,Lanarkshire,G41 3NN,Scotland,,,,,,,Yes
+loc_4wkwr9jx,Holland and Barrett,125-130 Sauchiehall,,Glasgow,Lanarkshire,G2 3DH,Scotland,,,,,,,Yes
+loc_4n8p5yg5,Holland and Barrett,9 Queen Street,,Glasgow,Lanarkshire,G1 3ED,Scotland,,,,,,,Yes
+loc_32597yp9,Holland and Barrett,Su31,Buchanan Galleries,Glasgow,Lanarkshire,G1 2GF,Scotland,,,,,,,Yes
+loc_3ezjgk5v,Holland and Barrett,"Unit 4, Affinity Devon",Clovelly Road,Bideford,Devon,EX39 3DU,England,,,,,,,Yes
+loc_3jx967qe,Holland and Barrett,34 Eastgate,,Inverness,Highlands,IV2 3NA,Scotland,,,,,,,Yes
+loc_3g865mk7,Holland and Barrett,Unit 40,Parkhead Forge,Glasgow,Lanarkshire,G31 4EB,Scotland,,,,,,,Yes
+loc_45jyqngn,Holland and Barrett,"Unit 21, 39 The Plaza","Town Centre, East Kilbride",Glasgow,South Lanarkshire,G74 1NX,Scotland,,,,,,,Yes
+loc_3mny5qev,Holland and Barrett,43-44 Brook Street,,Tavistock,Devon,PL19 OHE,England,,,,,,,Yes
+loc_3xznmv56,Holland and Barrett,Unit 4A Trostre Retail Park,Trostre,Llanelli,Carmarthenshire,SA14 9UY,Wales,,,,,,,Yes
+loc_4zr9mykw,Holland and Barrett,"Unit 13, Drake Circus",1 Charles Street,Plymouth,Devon,PL1 1EA,England,,,,,,,Yes
+loc_3re9527q,Holland and Barrett,253 High Street,,Bangor,Gwynedd,LL57 1PB,Wales,,,,,,,Yes
+loc_4knv59pq,Holland and Barrett,Unit C10,Glasgow Fort Shopping Centre,Glasgow,Lanarkshire,G33 5AL,Scotland,,,,,,,Yes
+loc_48znwj66,Holland and Barrett,30a Great Darkgate Street,,Aberystwyth,Ceredigion,SY23 1DE,Wales,,,,,,,Yes
+loc_396j2vpy,Holland and Barrett,North Cotes,92 High Street,Barnstaple,Devon,EX31 1HR,England,,,,,,,Yes
+loc_3vzpkgrm,Holland and Barrett,"Unit 43, Regent Way",Regent Way Shopping Centre,Hamilton,South Lanarkshire,ML3 7EF,Scotland,,,,,,,Yes
+loc_3qg72w9y,Holland and Barrett,"Tesco Extra, 15 Auchinbee Way",Cumbernauld,Glasgow,North Lanarkshire,G68 0EZ,Scotland,,,,,,,Yes
+loc_4y27mk5v,Holland and Barrett,"Unit 30, Antonine Centre",Tryst Road,Cumbernauld,Lanarkshire,G67 1JW,Scotland,,,,,,,Yes
+loc_4pkn5pxk,Holland and Barrett,Pontardulais Road,Cadle,Swansea,West Glamorgan,SA5 4BA,Wales,,,,,,,Yes
+loc_4wkwr5mx,Holland and Barrett,10 Union Street,,Swansea,West Glamorgan,SA1 3EF,Wales,,,,,,,Yes
+loc_47jwp7qq,Holland and Barrett,29 St. David’s Arcade,The Quadrant,Swansea,West Glamorgan,SA1 3QW,Wales,,,,,,,Yes
+loc_4n8p5qk5,Holland and Barrett,Thistle Centre,,Stirling,Stirlingshire,FK8 2ED,Scotland,,,,,,,Yes
+loc_325976w9,Holland and Barrett,51 Mostyn Street,,Llandudno,Gwynedd,LL30 2NN,Wales,,,,,,,Yes
+loc_3ezjgn9v,Holland and Barrett,2 Green Street,,Neath,Port Talbot,SA11 1DF,Wales,,,,,,,Yes
+loc_3jx965ke,Holland and Barrett,45 High Street,,Falkirk,Stirlingshire,FK1 1ES,Scotland,,,,,,,Yes
+loc_3g865eq7,Holland and Barrett,Unit 17,The Aberafom Centre,Port Talbot,West Glamorgan,SA13 1PB,Wales,,,,,,,Yes
+loc_45jyq69n,Holland and Barrett,"Unit M2B, Sterling Mills Designer Outlet",Moss Road,Tillicoultry,Clackmannanshire,FK13 6NS,Scotland,,,,,,,Yes
+loc_3mny5v6v,Holland and Barrett,Unit 2 Colwyn Centre,Sea View Road,Colwyn Bay,Conwy,LL29 8DG,Wales,,,,,,,Yes
+loc_3xznmk86,Holland and Barrett,33 John Street,Porthcawl,Bridgend,Mid Glamorgan,CF36 3AP,Wales,,,,,,,Yes
+loc_4zr9m8xw,Holland and Barrett,37 Fore Street,,Totnes,Devon,TQ9 5HN,England,,,,,,,Yes
+loc_4knv578q,Holland and Barrett,Unit 5,7 Market Walk Shopping Centre,Newton Abbot,Devon,TQ12 2RX,England,,,,,,,Yes
+loc_46gpy6v5,Holland and Barrett,Unit 16,The Lorebourne Shopping Centre,Dumfries,Dumfriesshire,DG1 2BD,Scotland,,,,,,,Yes
+loc_3re95nvq,Holland and Barrett,Unit 37 McArthurglen Designer Outlet,The Derwen,Bridgend,Mid Glamorgan,CF32 9SU,Wales,,,,,,,Yes
+loc_48znw9q6,Holland and Barrett,37-39 Victoria Street,,Paignton,Devon,TQ4 5DD,England,,,,,,,Yes
+loc_47jwp7vq,Holland and Barrett,53 Pow Street,,Workington,Cumbria,CA14 3AB,England,,,,,,,Yes
+loc_396j2vyy,Holland and Barrett,192 High Street,,Exeter,Devon,EX4 4DU,England,,,,,,,Yes
+loc_3vzpkg5m,Holland and Barrett,Unit SU49 Princesshay Shopping Centre,10 Bedford Street,Exeter,Devon,EX1 1LL,England,,,,,,,Yes
+loc_3qg72wxy,Holland and Barrett,28 Union Street,,Torquay,Devon,TQ1 3DW,England,,,,,,,Yes
+loc_4pkn5p7k,Holland and Barrett,Unit 117,The Centre,Livingston,West Lothian,EH54 6HR,Scotland,,,,,,,Yes
+loc_4wkwr5gx,Holland and Barrett,Unit 14,Wellington Street,Teignmouth,Devon,TQ14 8HW,England,,,,,,,Yes
+loc_4n8p5qx5,Holland and Barrett,35 Fore Street,,Tiverton,Devon,EX16 6LZ,England,,,,,,,Yes
+loc_325976n9,Holland and Barrett,21 The Parade,,Minehead,Somerset,TA24 5PX,England,,,,,,,Yes
+loc_3ezjgnqv,Holland and Barrett,Unit 31,Kingsgate Shopping Centre,Dunfermline,Fife,KY12 7QU,Scotland,,,,,,,Yes
+loc_3jx965ze,Holland and Barrett,187 High Street,,Perth,Perthshire,PH1 5UN,Scotland,,,,,,,Yes
+loc_3g865ep7,Holland and Barrett,30 High Street,,Denbigh,Denbighshire,LL16 3RY,Wales,,,,,,,Yes
+loc_45jyq6zn,Holland and Barrett,25 Chapel Street,The Magnolia Centre,Exmouth,Devon,EX8 1HW,England,,,,,,,Yes
+loc_3mny5vgv,Holland and Barrett,27 High Street,,Prestatyn,Denbighshire,LL19 9AF,Wales,,,,,,,Yes
+loc_3xznmkg6,Holland and Barrett,Unit 13,Bethel Square,Brecon,Powys,LD3 7JP,Wales,,,,,,,Yes
+loc_4zr9m87w,Holland and Barrett,Tesco Extra,Green Park,Talbot Green,Pontyclun,CF72 8RB,Wales,,,,,,,Yes
+loc_4knv57kq,Holland and Barrett,13 Graham Way,,Merthyr Tydfil,Mid Glamorgan,CF47 8ED,Wales,,,,,,,Yes
+loc_46gpy6j5,Holland and Barrett,62 Taff Street,,Pontypridd,Glamorgan,CF37 4TD,Wales,,,,,,,Yes
+loc_3re95nxq,Holland and Barrett,124-126 High Street,,Elgin,County of Moray,IV30 1BW,Scotland,,,,,,,Yes
+loc_48znw9g6,Holland and Barrett,Unit 11 Gyle Centre,Gyle Avenue,Edinburgh,Lothian,EH12 9JR,Scotland,,,,,,,Yes
+loc_396j2v5y,Holland and Barrett,Tesco Extra,Culverhouse Cross,Cardiff,South Glamorgan,CF5 6XQ,Wales,,,,,,,Yes
+loc_3vzpkgmm,Holland and Barrett,132 Holton Road,,Barry,South Glamorgan,CF63 4HH,Wales,,,,,,,Yes
+loc_3qg72wzy,Holland and Barrett,Fore Street,,Sidmouth,Devon,EX10 8AF,England,,,,,,,Yes
+loc_4y27mkzv,Holland and Barrett,206-208 Dalton Road,,Barrow-in-Furness,Cumbria,LA14 1PR,England,,,,,,,Yes
+loc_4pkn5pqk,Holland and Barrett,Unit 19,Castle Court Shopping Centre,Caerphilly,Mid Glamorgan,CF83 1NU,Wales,,,,,,,Yes
+loc_4wkwr5yx,Holland and Barrett,39 Deanhaugh Street,Stockbridge,Edinburgh,Lothian,EH4 1HJ,Scotland,,,,,,,Yes
+loc_4n8p5q95,Holland and Barrett,10 Shandwick Place,,Edinburgh,Lothian,EH2 4RN,Scotland,,,,,,,Yes
+loc_3ezjgnxv,Holland and Barrett,Unit 3 Hanover Building,Rose Street,Edinburgh,Lothian,EH2 2NN,Scotland,,,,,,,Yes
+loc_3jx965ye,Holland and Barrett,159 High Street,,Blackwood,Gwent,NP12 1AA,Wales,,,,,,,Yes
+loc_3g865e27,Holland and Barrett,18-19 Princes Street,,Edinburgh,Lothian,EH2 2AN,Scotland,,,,,,,Yes
+loc_45jyq67n,Holland and Barrett,92 High Street,,Honiton,Devon,EX14 1JW,England,,,,,,,Yes
+loc_3mny5v7v,Holland and Barrett,124 Nicolson Street,,Edinburgh,Lothian,EH8 9EH,Scotland,,,,,,,Yes
+loc_3xznmkp6,Holland and Barrett,Unit RU27B Ocean Terminal,98 Ocean Drive,Edinburgh,Lothian,EH6 6JJ,Scotland,,,,,,,Yes
+loc_4knv576q,Holland and Barrett,"Unit 33, 8 Town Wall South Hall",St David's Shopping Centre,Cardiff,South Glamorgan,CF10 2EW,Wales,,,,,,,Yes
+loc_46gpy695,Holland and Barrett,79-81 Queen Sreet,,Cardiff,South Glamorgan,CF10 2BE,Wales,,,,,,,Yes
+loc_3re95nkq,Holland and Barrett,22 Lyon Way,,Glenrothes,Fife,KY7 5NN,Scotland,,,,,,,Yes
+loc_48znw9y6,Holland and Barrett,89 Albany Road,Roath,Cardiff,South Glamorgan,CF24 3LP,Wales,,,,,,,Yes
+loc_47jwp75q,Holland and Barrett,Unit 31 Cameron Toll Shopping Centre,Lady Road,Edinburgh,Lothian,EH16 5PB,Scotland,,,,,,,Yes
+loc_396j2vwy,Holland and Barrett,132 High Street,,Kirkcaldy,Fife,KY1 1NQ,Scotland,,,,,,,Yes
+loc_3vzpkgwm,Holland and Barrett,10-10a High Street,,Mold,Flintshire,CH7 1AZ,Wales,,,,,,,Yes
+loc_3qg72wyy,Holland and Barrett,33 Main Street,,Keswick,Cumbria,CA12 5BL,England,,,,,,,Yes
+loc_4y27mk8v,Holland and Barrett,12 East Street,,Taunton,Somerset,TA1 3LN,England,,,,,,,Yes
+loc_4pkn5p8k,Holland and Barrett,33 Corporation Street,,Blackpool,Lancashire,FY1 1EJ,England,,,,,,,Yes
+loc_4wkwr5nx,Holland and Barrett,152 High Street,,Musselburgh,Midlothian,EH21 7DZ,Scotland,,,,,,,Yes
+loc_4n8p5qz5,Holland and Barrett,4 Cherry Square Shopping Centre,,Wallasey,Merseyside,CH44 5XU,England,,,,,,,Yes
+loc_325976r9,Holland and Barrett,"Unit B, 23 Victoria Road West",Thornton,Cleveleys,Lancashire,FY5 1BS,England,,,,,,,Yes
+loc_3ezjgn6v,Holland and Barrett,51 St. Annes Road West,,St Annes,Lancashire,FY8 1SB,England,,,,,,,Yes
+loc_3jx965we,Holland and Barrett,6 Borough Pavement,,Birkenhead,Merseyside,CH41 2XX,England,,,,,,,Yes
+loc_45jyq6en,Holland and Barrett,Unit 16,South Walk,Cwmbran,Gwent,NP44 1PU,Wales,,,,,,,Yes
+loc_3g865e97,Holland and Barrett,4B High Street,,Abergavenny,Gwent,NP7 5RY,Wales,,,,,,,Yes
+loc_3mny5v8v,Holland and Barrett,Unit 20,Angel Place Centre,Bridgwater,Somerset,TA6 3TQ,England,,,,,,,Yes
+loc_3xznmk26,Holland and Barrett,9-11 Chapel Street,,Southport,Merseyside,PR8 1DF,England,,,,,,,Yes
+loc_4zr9m8nw,Holland and Barrett,27 Hope Street,,Wrexham,Wrexham,LL11 1BD,Wales,,,,,,,Yes
+loc_4knv57zq,Holland and Barrett,"Unit 16, Friars Walk Shopping Centre",John Frost Square,Newport,Monmouthshire,NP20 1DU,Wales,,,,,,,Yes
+loc_46gpy6e5,Holland and Barrett,51-52 New Strand Medway,,Bootle,Merseyside,L20 4SR,England,,,,,,,Yes
+loc_3re95ngq,Holland and Barrett,"Unit 64, Upper Level","South John Street, Liverpool One Shopping Centre",Liverpool,Merseyside,L1 8BJ,England,,,,,,,Yes
+loc_48znw956,Holland and Barrett,17 Whitechapel,,Liverpool,Merseyside,L1 6DS,England,,,,,,,Yes
+loc_3vzpkgqm,Holland and Barrett,"Unit 2, The Sovereign Centre",High Street,Weston-Super-Mare,North Somerset,BS23 1HL,England,,,,,,,Yes
+loc_396j2vmy,Holland and Barrett,3a Bold Street,,Liverpool,Merseyside,L1 4DJ,England,,,,,,,Yes
+loc_3qg72wky,Holland and Barrett,Unit L10,Overgate Shopping Centre,Dundee,Angus,DD1 1UH,Scotland,,,,,,,Yes
+loc_4y27mkvv,Holland and Barrett,71 Murraygate,,Dundee,Tayside,DD1 2EA,Scotland,,,,,,,Yes
+loc_4pkn5pjk,Holland and Barrett,4-6 Fore Street,,Chard,Somerset,TA20 1PH,England,,,,,,,Yes
+loc_4n8p5qj5,Holland and Barrett,Tesco Extra,Spytty Road,Newport,Gwent,NP19 4TX,Wales,,,,,,,Yes
+loc_325976x9,Holland and Barrett,2 Globe Lane,The Lanes,Carlisle,Cumbria,CA3 8NX,England,,,,,,,Yes
+loc_3ezjgnwv,Holland and Barrett,34 Mercer Walk,Port Market Shopping Centre,Ellesmere Port,Cheshire,CH65 0AP,England,,,,,,,Yes
+loc_3g865eg7,Holland and Barrett,44 Foregate Street,,Chester,Cheshire,CH1 1HA,England,,,,,,,Yes
+loc_45jyq6rn,Holland and Barrett,33 Moor Street,,Ormskirk,Lancashire,L39 2AA,England,,,,,,,Yes
+loc_3mny5vjv,Holland and Barrett,Unit 114 The Designer Outlet Centre,Cheshire Oaks,Ellesmere Port,Merseyside,CH65 9JJ,England,,,,,,,Yes
+loc_4zr9m8qw,Holland and Barrett,261 Brook Street,,Broughty Ferry,Dundee,DD5 2AG,Scotland,,,,,,,Yes
+loc_4knv57jq,Holland and Barrett,24 Euston Road,,Morecambe,Lancashire,LA4 5DD,England,,,,,,,Yes
+loc_46gpy6r5,Holland and Barrett,"Unit 26a, Belle Vale Shopping Centre",,Belle Vale,Liverpool,L25 2RF,England,,,,,,,Yes
+loc_3re95npq,Holland and Barrett,6 Station Road,,Clevedon,North Somerset,BS21 6NH,England,,,,,,,Yes
+loc_48znw9m6,Holland and Barrett,"Unit 16, Cavendish Walk",Derby Road,Huyton,Merseyside,L36 9YG,England,,,,,,,Yes
+loc_47jwp7jq,Holland and Barrett,Unit 3,Douglas Bridge,Galashiels,Selkirkshire,TD1 1BH,Scotland,,,,,,,Yes
+loc_396j2v6y,Holland and Barrett,26 Penny Street,,Lancaster,Lancashire,LA1 1UA,England,,,,,,,Yes
+loc_3vzpkgzm,Holland and Barrett,104 Market Street,,St. Andrews,Fife,KY16 9PB,Scotland,,,,,,,Yes
+loc_3qg72wgy,Holland and Barrett,"Unit 2, Kings Court",87-89 High Street,Nailsea,North Somerset,BS48 1AW,England,,,,,,,Yes
+loc_4y27mk2v,Holland and Barrett,48 Pride Hill,,Shrewsbury,Shropshire,SY1 1DN,England,,,,,,,Yes
+loc_4pkn5pkk,Holland and Barrett,54 Stricklandgate,,Kendal,Cumbria,LA9 4ND,England,,,,,,,Yes
+loc_4wkwr5kx,Holland and Barrett,Unit 73,Clark's Village,Street,Somerset,BA16 0FB,England,,,,,,,Yes
+loc_4n8p5q85,Holland and Barrett,8 High Street,,Leominster,Worcestershire,HR6 8LZ,England,,,,,,,Yes
+loc_32597659,Holland and Barrett,Tesco Extra,Linkway,St Helens,Merseyside,WA9 3AL,England,,,,,,,Yes
+loc_3ezjgnzv,Holland and Barrett,14 Albert Road,,Widnes,Cheshire,WA8 6JE,England,,,,,,,Yes
+loc_3jx965xe,Holland and Barrett,Unit 1 Valentines Walk,3 Broad Street,Ludlow,Shropshire,SY8 1NG,England,,,,,,,Yes
+loc_3g865e87,Holland and Barrett,73 Monnow Street,,Monmouth,Monmouthshire,NP25 3EW,Wales,,,,,,,Yes
+loc_3mny5vnv,Holland and Barrett,1-2 Commercial Street,,Hereford,Herefordshire,HR1 2AJ,England,,,,,,,Yes
+loc_45jyq6jn,Holland and Barrett,49 Fishergate,,Preston,Lancashire,PR1 8BH,England,,,,,,,Yes
+loc_3xznmkz6,Holland and Barrett,"Unit 10, 13 Friargate Walk",St Georges Shopping Centre,Preston,Lancashire,PR1 2NG,England,,,,,,,Yes
+loc_4zr9m8rw,Holland and Barrett,22 High Street,,Wells,Somerset,BA5 2SG,England,,,,,,,Yes
+loc_4knv57nq,Holland and Barrett,Unit 27 Market Walk,Shopping Centre,Chorley,Lancashire,PR7 1DE,England,,,,,,,Yes
+loc_3re95neq,Holland and Barrett,Unit 7A Grand Arcade,,Wigan,Lancashire,WN1 1BH,England,,,,,,,Yes
+loc_46gpy6g5,Holland and Barrett,20 Vicarage Walk,Quedam Centre,Yeovil,Somerset,BA20 1EY,England,,,,,,,Yes
+loc_47jwp7yq,Scoop Wholefoods Bristol,98A Whiteladies Rd,,Clifton,Bristol,BS8 2QY,England,,,,,,,Yes
+loc_396j2vny,Holland and Barrett,"21 Clifton Down, Shopping Centre",Whiteladies Road,Bristol,City of Bristol,BS8 2NN,England,,,,,,,Yes
+loc_3vzpkgem,Holland and Barrett,31 The Mall,,Warrington,Cheshire,WA1 1QP,England,,,,,,,Yes
+loc_48znw9z6,Holland and Barrett,45 The Mall,Cribbs Causeway Regional Shopping Centre,Bristol,City of Bristol,BS34 5GG,England,,,,,,,Yes
+loc_4y27mkev,Holland and Barrett,Unit 2 Odeon Buildings,Nelson Street,Bristol,City of Bristol,BS1 2DS,England,,,,,,,Yes
+loc_4wkwr5xx,Holland and Barrett,SU59 George White Street,Cabot Circus,Bristol,City of Bristol,BS1 3BA,England,,,,,,,Yes
+loc_4n8p5q25,Holland and Barrett,229 High Street,Abroath,Arbroath,Angus,DD11 1DZ,Scotland,,,,,,,Yes
+loc_325976z9,Holland and Barrett,Unit 10,The Maltings Shopping Centre,Ross-on-Wye,Herefordshire,HR9 7YB,England,,,,,,,Yes
+loc_3ezjgn8v,Holland and Barrett,Unit 8,Broadwalk Shopping Centre,Knowle,Bristol,BS4 2RA,England,,,,,,,Yes
+loc_3jx9652e,Holland and Barrett,Unit MU2,Willow Brook Shopping Centre,Bradley stoke,Bristol,BS32 8BS,England,,,,,,,Yes
+loc_45jyq6vn,Holland and Barrett,Mansell Way,,Horwich,Lancashire,BL6 6JS,England,,,,,,,Yes
+loc_3mny5vzv,Holland and Barrett,Unit 14 St. Marys Way,St. Marys Centre,Thornbury,South Gloucestershire,BS35 2BH,England,,,,,,,Yes
+loc_3xznmkr6,Holland and Barrett,39 High Street,,Nantwich,Cheshire,CW5 5DB,England,,,,,,,Yes
+loc_4zr9m8ew,Holland and Barrett,"Unit 26, Spinning Gate Shopping Centre",Ellesmere Street,Leigh,Greater Manchester,WN7 4PG,England,,,,,,,Yes
+loc_4knv57eq,Holland and Barrett,72 High Street,,Northwich,Cheshire,CW9 5AG,England,,,,,,,Yes
+loc_46gpy6q5,Holland and Barrett,"Unit 14,Regent Street",Kings Chase Shopping Centre,Kingswood,Bristol,BS15 8LP,England,,,,,,,Yes
+loc_3re95nrq,Holland and Barrett,"Tesco Extra, Wrekin Retail Park",Arleston,Telford,Shropshire,TF1 2DE,England,,,,,,,Yes
+loc_48znw9p6,Holland and Barrett,3-5 Cobden Court,,Blackburn,Lancashire,BB1 7JG,England,,,,,,,Yes
+loc_47jwp7pq,Holland and Barrett,33 St. Mary's Street,,Weymouth,Dorset,DT4 8PN,England,,,,,,,Yes
+loc_396j2v2y,Holland and Barrett,34 Sherwood Street,Town Centre,Telford,Shropshire,TF3 4BW,England,,,,,,,Yes
+loc_3vzpkgkm,Holland and Barrett,25 Victoria Street,,Crewe,Cheshire,CW1 2HF,England,,,,,,,Yes
+loc_3qg72w2y,Holland and Barrett,54 South Street,,Dorchester,Dorset,DT1 1DQ,England,,,,,,,Yes
+loc_4pkn5p5k,Holland and Barrett,26 Newport Street,,Bolton,Lancashire,BL1 1NB,England,,,,,,,Yes
+loc_4wkwr5rx,Holland and Barrett,61 High Street,,Bridgnorth,Shropshire,WV16 4DX,England,,,,,,,Yes
+loc_4n8p5q55,Holland and Barrett,Unit 8,East Walk,Yate,Bristol,BS37 4AS,England,,,,,,,Yes
+loc_32597679,Scoop Wholefoods Bath,Unit 3,The Grain Store,,Bath,BA2 3GS,England,,,,,,,Yes
+loc_3ezjgngv,Holland and Barrett,Unit 12,Arndale Centre,Accrington,Lancashire,BB5 1EX,England,,,,,,,Yes
+loc_3jx9656e,Holland and Barrett,34-36 Stall Street,,Bath,Bath and North East Somerset,BA1 1QG,England,,,,,,,Yes
+loc_3g865e67,Holland and Barrett,70 George Street,,Altrincham,Greater Manchester,WA14 1RF,England,,,,,,,Yes
+loc_45jyq6qn,Holland and Barrett,25 Regent Crecent,The Trafford Centre,Manchester,Greater Manchester,M17 8AR,England,,,,,,,Yes
+loc_4knv575q,Holland and Barrett,"Unit 4, The Mall",School Road,Sale,Greater Manchester,M33 1XZ,England,,,,,,,Yes
+loc_3xznmkm6,Holland and Barrett,Unit 8,Westway Centre,Frome,Somerset,BA11 1BS,England,,,,,,,Yes
+loc_4zr9m8mw,Holland and Barrett,Unit 66,Stretford Mall,Stretford,Greater Manchester,M32 9BD,England,,,,,,,Yes
+loc_3re95n5q,Holland and Barrett,Unit G56,The Lowry Outlet Mall,Salford Quays,Greater Manchester,M50 3AH,England,,,,,,,Yes
+loc_46gpy6y5,Holland and Barrett,Unit B6 The Rock,15 Central Street,Bury,Lancashire,BL9 0JN,England,,,,,,,Yes
+loc_3qg72w7y,Holland and Barrett,39 Raven Way,Salford Shopping Centre,Salford,Greater Manchester,M6 5HT,England,,,,,,,Yes
+loc_48znw9w6,Holland and Barrett,607 Wilbraham Road,,Chorlton Cum Hardy,Greater Manchester,M21 9AN,England,,,,,,,Yes
+loc_47jwp7wq,Holland and Barrett,43-47 High Street,,Stourport on Severn,Worcestershire,DY13 8BU,England,,,,,,,Yes
+loc_396j2vjy,Holland and Barrett,"Unit 22, Freeport Talke Outlet Mall",Talke Pits,Stoke-on-Trent,Staffordshire,ST7 1XD,England,,,,,,,Yes
+loc_3vzpkgpm,Holland and Barrett,Unit 28A,The Birtles,Wythenshawe,Manchester,M22 5RL,England,,,,,,,Yes
+loc_4y27mk7v,Holland and Barrett,Unit 66B Gloucester Quays Designer Outlet,St Ann Way,Gloucester,Gloucestershire,GL1 5SH,England,,,,,,,Yes
+loc_4pkn5pnk,Holland and Barrett,13 Weavers Wharf,,Kidderminster,Worcestershire,DY10 1AA,England,,,,,,,Yes
+loc_4wkwr5wx,Holland and Barrett,22 St. Anns Square,,Manchester,Greater Manchester,M2 7JB,England,,,,,,,Yes
+loc_4n8p5qp5,Holland and Barrett,3 St. Michaels Buildings,,Gloucester,Gloucestershire,GL1 1PD,England,,,,,,,Yes
+loc_32597699,Holland and Barrett,33 The Mall,,Burnley,Lancashire,BB11 1BA,England,,,,,,,Yes
+loc_3jx9659e,Holland and Barrett,105 Market Street,,Manchester,Greater Manchester,M1 1NN,England,,,,,,,Yes
+loc_45jyq6yn,Holland and Barrett,764 Wilmslow Road,,Didsbury,Manchester,M20 2DR,England,,,,,,,Yes
+loc_3mny5vyv,Holland and Barrett,31c Grove Street,,Wilmslow,Cheshire,SK9 1LD,England,,,,,,,Yes
+loc_3xznmkn6,Holland and Barrett,29 High Street,,Newcastle under Lyme,Staffordshire,ST5 1QZ,England,,,,,,,Yes
+loc_4zr9m89w,Holland and Barrett,22 Mealcheapen Street,,Worcester,Worcestershire,WR1 2DQ,England,,,,,,,Yes
+loc_4knv57vq,Holland and Barrett,15 High Street,,Stroud,Gloucestershire,GL5 1AZ,England,,,,,,,Yes
+loc_46gpy6p5,Holland and Barrett,45-47 High Street,,Congleton,Cheshire,CW12 1AU,England,,,,,,,Yes
+loc_3re95n9q,Holland and Barrett,Unit 15,The Shires,Trowbridge,Wiltshire,BA14 8AT,England,,,,,,,Yes
+loc_48znw9n6,Holland and Barrett,G27 Middleton Shopping Centre,Limetrees Road,Middleton,Greater Manchester,M24 4EL,England,,,,,,,Yes
+loc_47jwp7rq,Holland and Barrett,11 High Street,,Shaftesbury,Dorset,SP7 8JS,England,,,,,,,Yes
+loc_396j2vxy,Holland and Barrett,"Unit 36, Trentham Retail Village",Stone Road,Stoke-on-Trent,Staffordshire,ST4 8AX,England,,,,,,,Yes
+loc_3xznmkx6,Holland and Barrett,Unit 6C,Crown Point Retail Park,Denton,Greater Manchester,M34 3LY,England,,,,,,,Yes
+loc_3vzpkgjm,Holland and Barrett,Unit 30,Three Horseshoes Walk,Warminster,Wiltshire,BA12 9BT,England,,,,,,,Yes
+loc_3qg72wpy,Holland and Barrett,8 Upper Market Square,,Hanley,Staffordshire,ST1 1NS,England,,,,,,,Yes
+loc_4y27mkrv,Holland and Barrett,14 Market Place,,Blandford Forum,Dorset,DT11 7EB,England,,,,,,,Yes
+loc_4pkn5pyk,Holland and Barrett,Unit 85,Merseyway SC,Stockport,Greater Manchester,SK1 1QW,England,,,,,,,Yes
+loc_4wkwr58x,Holland and Barrett,Unit 51 Market Way,Rochdale Exchange,Rochdale,Lancashire,OL16 1EA,England,,,,,,,Yes
+loc_4n8p5qv5,Holland and Barrett,146 High Street,,Tewkesbury,Gloucestershire,GL20 5JP,England,,,,,,,Yes
+loc_32597689,Holland and Barrett,Unit 35 Salters Shopping Centre,8 St. Andrews Square,Droitwich,Worcestershire,WR9 8HE,England,,,,,,,Yes
+loc_3ezjgnvv,Holland and Barrett,Unit 32,The Ryemarket Shopping Centre,Stourbridge,West Midlands,DY8 1HJ,England,,,,,,,Yes
+loc_3jx965ne,Holland and Barrett,Laurel Drive,Danestone,Aberdeen,Aberdeenshire,AB22 8HB,Scotland,,,,,,,Yes
+loc_3g865ey7,Holland and Barrett,49 Dudley Street,,Wolverhampton,West Midlands,WV1 3ER,England,,,,,,,Yes
+loc_45jyq62n,Holland and Barrett,26 Mill Street,,Macclesfield,Cheshire,SK11 6LY,England,,,,,,,Yes
+loc_3mny5v9v,Holland and Barrett,1 Goalgate Street,,Stafford,Staffordshire,ST16 2BG,England,,,,,,,Yes
+loc_3re95nwq,Holland and Barrett,Unit 16,Emery Gate Shopping Centre,Chippenham,Wiltshire,SN15 3JP,England,,,,,,,Yes
+loc_4zr9m8jw,Holland and Barrett,Lower Mall,37 The Spindles Shopping Centre,Oldham,Greater Manchester,OL1 1HE,England,,,,,,,Yes
+loc_46gpy6k5,Natures Larder,60 Holburn Street,,Aberdeen,Aberdeenshire,AB10 6BX,England,,,,,,,Yes
+loc_4knv572q,Holland and Barrett,Unit L40-41 Merryhill Shopping Centre,Brierley Hill,Dudley,West Midlands,DY5 1SL,England,,,,,,,Yes
+loc_48znw9r6,Holland and Barrett,19 King Street,,St Helier,Jersey,JE2 4WF,Channel Islands,,,,,,,Yes
+loc_396j2vry,Holland and Barrett,Unit 2 Trinity Centre,155 Union Street,Aberdeen,Aberdeenshire,AB11 6BD,Scotland,,,,,,,Yes
+loc_3vzpkg9m,Holland and Barrett,31-33 Fore Street,,Hexham,Northumberland,NE46 1LU,England,,,,,,,Yes
+loc_4y27mkyv,Holland and Barrett,Unit E4,St Nicholas Centre,Aberdeen,Aberdeenshire,AB10 1HW,Scotland,,,,,,,Yes
+loc_4pkn5pmk,Holland and Barrett,"Unit 22, Staveleigh Walk",Lady Smith Centre,Ashton-under-Lyne,Greater Manchester,OL6 7JQ,England,,,,,,,Yes
+loc_48znw9j6,Holland and Barrett,12 Churchill Precinct,,Dudley,West Midlands,DY1 1PG,England,,,,,,,Yes
+loc_4wkwr5vx,Holland and Barrett,6-8 The Mall,Clarendon Square Shopping Centre,Hyde,Greater Manchester,SK14 2QT,England,,,,,,,Yes
+loc_4n8p5qm5,Holland and Barrett,98 Church Street,,Bilston,West Midlands,WV14 OAX,England,,,,,,,Yes
+loc_3ezjgnyv,Holland and Barrett,38 High Street,,Pershore,Worcestershire,WR10 1DP,England,,,,,,,Yes
+loc_325976q9,Holland and Barrett,17-18 Regent Arcade,,Cheltenham,Gloucestershire,GL50 1JZ,England,,,,,,,Yes
+loc_3g865ew7,Holland and Barrett,"Tesco Extra, Town Gate Retail Park",Birmingham Road,Dudley,West Midlands,DY1 4RP,England,,,,,,,Yes
+loc_45jyq6wn,Holland and Barrett,55 High Street,,Bromsgrove,Worcestershire,B61 8AJ,England,,,,,,,Yes
+loc_3mny5vxv,Holland and Barrett,33 Hagley Mall,Cornbow Centre,Halesowen,West Midlands,B63 4AJ,England,,,,,,,Yes
+loc_4knv57yq,Holland and Barrett,Unit SU306-307,Bull Ring Centre,Birmingham,West Midlands,B5 4BU,England,,,,,,,Yes
+loc_3xznmkq6,Holland and Barrett,Unit 21,Cannock Shopping Centre,Cannock,Staffordshire,WS11 1EB,England,,,,,,,Yes
+loc_4zr9m8pw,Holland and Barrett,30 Sheep Street,,Skipton,North Yorkshire,BD23 1HX,England,,,,,,,Yes
+loc_3xznmkv6,Holland and Barrett,"11 Swan Centre, Church Road",Yardley,Birmingham,West Midlands,B25 8UJ,England,,,,,,,Yes
+loc_4knv57mq,Holland and Barrett,74 Marygate,,Berwick-upon-Tweed,Northumberland,TD15 1BN,England,,,,,,,Yes
+loc_46gpy6n5,Holland and Barrett,9 & 10 The Brittox,,Devizes,Wiltshire,SN10 1AJ,England,,,,,,,Yes
+loc_3re95nzq,Holland and Barrett,Unit 48 Sandwell Shopping Centre,Queens Square,West Bromwich,West Midlands,B70 7NJ,England,,,,,,,Yes
+loc_48znw9e6,Holland and Barrett,11 The Square,,Wimborne,Dorset,BH21 1JA,England,,,,,,,Yes
+loc_47jwp7nq,Holland and Barrett,Unit 28 Town centre,Longbride,Birmingham,West Midlands,B31 2UQ,England,,,,,,,Yes
+loc_396j2vey,Holland and Barrett,34-36 Park Street Arcade,,Walsall,West Midlands,WS1 1NG,England,,,,,,,Yes
+loc_3vzpkgym,Holland and Barrett,Unit 35-36,Dolphin Centre,Poole,Dorset,BH15 1SS,England,,,,,,,Yes
+loc_3qg72wjy,Holland and Barrett,566 Bearwood Road,Bearwood,Birmingham,West Midlands,B66 4BS,England,,,,,,,Yes
+loc_4pkn5pek,Holland and Barrett,Northfield Shopping Centre,Bristol Road South,Birmingham,West Midlands,B31 2JU,England,,,,,,,Yes
+loc_4y27mknv,Holland and Barrett,24 Cricklade Street,,Cirencester,Gloucestershire,GL7 1JH,England,,,,,,,Yes
+loc_4wkwr5px,Holland and Barrett,99a High Street,Harborne,Birmingham,West Midlands,B17 9NP,England,,,,,,,Yes
+loc_4n8p5qn5,Holland and Barrett,25 Bridge Street,,Evesham,Worcestershire,WR11 4SQ,England,,,,,,,Yes
+loc_325976v9,Holland and Barrett,"Unit 2, New Walk",Kingfisher Centre,Redditch,Worcestershire,B97 4HB,England,,,,,,,Yes
+loc_3ezjgnev,Holland and Barrett,198 Soho Road,,Handsworth,Birmingham,B21 9LR,England,,,,,,,Yes
+loc_3jx9658e,Holland and Barrett,31 Market Street,,Barnard Castle,County Durham,DL12 8NE,England,,,,,,,Yes
+loc_3g865e77,Holland and Barrett,17 Spring Garden Centre,,Buxton,Derbyshire,SK17 6DF,England,,,,,,,Yes
+loc_45jyq6pn,Holland and Barrett,21-23 Queensway,Airedale Shopping Centre,Keighley,Yorkshire,BD21 3PX,England,,,,,,,Yes
+loc_3mny5vwv,Holland and Barrett,"Unit 20, 23 One Stop Shopping Centre",Walsall Road,Perry Bar,West Midlands,B42 1AA,England,,,,,,,Yes
+loc_3xznmkw6,Holland and Barrett,"Unit21, Grand Central Shopping Centre",,Birmingham,West Midlands,B2 4BF,England,,,,,,,Yes
+loc_46gpy6w5,Holland and Barrett,50-54 High Street,,Birmingham,West Midlands,B4 7SY,England,,,,,,,Yes
+loc_3re95n8q,Holland and Barrett,Unit 4 Scots Corner,High Street,Birmingham,West Midlands,B14 7EG,England,,,,,,,Yes
+loc_48znw926,Holland and Barrett,76 Victoria Road,,Ferndown,Dorset,BH22 9JA,England,,,,,,,Yes
+loc_47jwp7eq,Holland and Barrett,96 Commercial Road,,Bournemouth,Dorset,BH2 5LR,England,,,,,,,Yes
+loc_396j2vgy,Holland and Barrett,364 Wimborne Road,Winton,Bournemouth,Dorset,BH9 2HE,England,,,,,,,Yes
+loc_3vzpkg7m,Holland and Barrett,30-34 Old Christchurch Road,,Bournemouth,Dorset,BH1 1LG,England,,,,,,,Yes
+loc_3qg72wny,Holland and Barrett,4 Crown Street,,Halifax,Yorkshire,HX1 1TT,England,,,,,,,Yes
+loc_4pkn5pwk,Holland and Barrett,Unit 31,Sovereign Centre,Boscombe,Dorset,BH1 4SX,England,,,,,,,Yes
+loc_4wkwr59x,Holland and Barrett,132 High Street,,Erdington,West Midlands,B23 6RS,England,,,,,,,Yes
+loc_4pkn5ppk,Holland and Barrett,28 Charles Street Mall,The Broadway Centr,Bradford,West Yorkshire,BD1 1US,England,,,,,,,Yes
+loc_4n8p5qy5,Holland and Barrett,215 Stratford Road,Shirley,Birmingham,West Midlands,B90 3AH,England,,,,,,,Yes
+loc_325976y9,Holland and Barrett,29 Bakers Lane,Three Shires Shopping Centre,Lichfield,Staffordshire,WS13 6NF,England,,,,,,,Yes
+loc_3ezjgnkv,Holland and Barrett,176 Gracechurch Shopping Centre,,Sutton Coldfield,West Midlands,B72 1PH,England,,,,,,,Yes
+loc_3jx9657e,Holland and Barrett,19 Brooke Street,,Ilkley,Yorkshire,LS29 8AA,England,,,,,,,Yes
+loc_45jyq6nn,Holland and Barrett,1084 Warwick Road,Acocks Green,Birmingham,West Midlands,B27 6BH,England,,,,,,,Yes
+loc_3mny5vqv,Holland and Barrett,Tesco Extra,Riverside Ave,Bournemouth,Dorset,BH7 7DY,England,,,,,,,Yes
+loc_4knv579q,Holland and Barrett,Unit 82 Great Western Designer Outlet,Kemble Drive,Swindon,Wiltshire,SN2 2DY,England,,,,,,,Yes
+loc_46gpy625,Holland and Barrett,59 Silver Street,,Salisbury,Wiltshire,SP1 2NG,England,,,,,,,Yes
+loc_3re95n2q,Holland and Barrett,Unit 1 Furlong Shopping Centre,,Ringwood,Hampshire,BH24 1AT,England,,,,,,,Yes
+loc_47jwp77q,Holland and Barrett,"1a, 17 Brunel Plaza",,Swindon,Wiltshire,SN1 1LF,England,,,,,,,Yes
+loc_396j2vvy,Holland and Barrett,95 New Street,,Huddersfield,Yorkshire,HD1 2TW,England,,,,,,,Yes
+loc_3vzpkggm,Holland and Barrett,Unit 20,Touchwood Court,Solihull,West Midlands,B91 3GZ,England,,,,,,,Yes
+loc_3qg72wwy,Holland and Barrett,40 Market Square,,Shipley,West Yorkshire,BD18 3QB,England,,,,,,,Yes
+loc_4y27mkkv,Holland and Barrett,Unit 11,Saxon Square,Christchurch,Dorset,BH23 1QA,England,,,,,,,Yes
+loc_4wkwr55x,Holland and Barrett,18 Greenwood Way,Chelmsley Wood Shopping Centre,Birmingham,West Midlands,B37 5TS,England,,,,,,,Yes
+loc_4n8p5qq5,Holland and Barrett,25 High Street,,Marlborough,Wiltshire,SN8 1LW,England,,,,,,,Yes
+loc_32597669,Holland and Barrett,"Unit 13B, Princes Gate Shopping Park",Richmond Road,Catterick,Yorkshire,DL9 3BA,England,,,,,,,Yes
+loc_3ezjgnnv,Holland and Barrett,31 Bridge Street,,Stratford-upon-Avon,Warwickshire,CV37 6AD,England,,,,,,,Yes
+loc_3jx9655e,Holland and Barrett,14a George Street,,Tamworth,Staffordshire,B79 7LN,England,,,,,,,Yes
+loc_3g865ee7,Holland and Barrett,36 Bridge Street,,Morpeth,Northumberland,NE61 1NL,England,,,,,,,Yes
+loc_45jyq66n,Holland and Barrett,44 Newgate Street,,Bishop Auckland,Country Durham,DL14 7EG,England,,,,,,,Yes
+loc_3mny5vvv,Holland and Barrett,Unit 8,Granby Road,Bakewell,Derbyshire,DE45 1ES,England,,,,,,,Yes
+loc_3xznmkk6,Holland and Barrett,Kingston Park,Brunton Lane,Newcastle,Tyne & Wear,NE3 2FP,England,,,,,,,Yes
+loc_4knv577q,Holland and Barrett,41a Cameron Walk,Metro Centre,Gateshead,Tyne & Wear,NE11 9YG,England,,,,,,,Yes
+loc_46gpy665,Holland and Barrett,81 Station Road,,New Milton,Hampshire,BH25 6JD,England,,,,,,,Yes
+loc_3re95nnq,Holland and Barrett,8 Underhill Walk Shopping Centre,,Burton-on-Trent,Staffordshire,DE14 1DE,England,,,,,,,Yes
+loc_48znw996,Holland and Barrett,11 Princess of Wales Precinct,,Dewsbury,Yorkshire,WF13 1NH,England,,,,,,,Yes
+loc_396j2vqy,Holland and Barrett,Unit E2-E3 Blackett Bridge,Eldon Square Shopping Centre,Newcastle,Tyne & Wear,NE1 7XJ,England,,,,,,,Yes
+loc_3vzpkg6m,Holland and Barrett,Unit 4A,Kirkstall Bridge Shopping Centre,Leeds,Yorkshire,LS5 3BL,England,,,,,,,Yes
+loc_3qg72w8y,Holland and Barrett,20 Ellison Walk,,Gateshead,Tyne & Wear,NE8 1BF,England,,,,,,,Yes
+loc_4y27mk6v,Holland and Barrett,"Harry Brearley House, Units 3-5",6 Fox Valley Way,Sheffield,Yorkshire,S36 2AE,England,,,,,,,Yes
+loc_4pkn5p6k,Holland and Barrett,"Unit 54, Northumbria House",Manor Walks Shopping Centre,Cramlington,Northumberland,NE23 6UT,England,,,,,,,Yes
+loc_4wkwr56x,Holland and Barrett,20 High Street,,Warwick,Warwickshire,CV34 4AP,England,,,,,,,Yes
+loc_4n8p5qr5,Holland and Barrett,21-23 Warwick Road,,Kenilworth,Warwickshire,CV8 1HN,England,,,,,,,Yes
+loc_325976k9,Holland and Barrett,36-37 Silver Street,,Durham,County Durham,DH1 3RD,England,,,,,,,Yes
+loc_3ezjgnpv,Holland and Barrett,Unit 43,The White Rose Centre,Leeds,Yorkshire,LS11 8LL,England,,,,,,,Yes
+loc_3jx965je,Holland and Barrett,Unit 21 Cannon Park Centre,Lynchgate Road,Coventry,West Midlands,CV4 7EH,England,,,,,,,Yes
+loc_45jyq6kn,Holland and Barrett,18 North Gate,,Darlington,County Durham,DL1 1NR,England,,,,,,,Yes
+loc_3g865en7,Holland and Barrett,Unit 1,Crown Centre,Matlock,Derbyshire,DE4 3AT,England,,,,,,,Yes
+loc_4zr9m86w,Holland and Barrett,Trinity Leeds,Bond Street,Leeds,Yorkshire,LS1 5ER,England,,,,,,,Yes
+loc_3xznmk66,Holland and Barrett,37 The Merrion Centre,,Leeds,Yorkshire,LS2 8NG,England,,,,,,,Yes
+loc_4knv57gq,Holland and Barrett,24 High Street,,Lymington,Hampshire,SO41 9AD,England,,,,,,,Yes
+loc_3re95n6q,Holland and Barrett,24 Cambridge Street,,Harrogate,Yorkshire,HG1 1RX,England,,,,,,,Yes
+loc_48znw9v6,Holland and Barrett,41 Parade,,Leamington Spa,Warwickshire,CV32 4BL,England,,,,,,,Yes
+loc_47jwp7xq,Holland and Barrett,27 Albany Mail,,Washington,Tyne & Wear,NE38 7SA,England,,,,,,,Yes
+loc_396j2vky,Holland and Barrett,11-12 Queen Street,,Ripon,Yorkshire,HG4 1BP,England,,,,,,,Yes
+loc_3vzpkgvm,Holland and Barrett,Unit 25-27,The Precinct,Coventry,West Midlands,CV1 1DD,England,,,,,,,Yes
+loc_4y27mkpv,Holland and Barrett,21-22 Hillsborough Shopping Centre,,Sheffield,Yorkshire,S6 4HL,England,,,,,,,Yes
+loc_4pkn5pgk,Holland and Barrett,23 The Hundred,,Romsey,Hampshire,SO51 8GD,England,,,,,,,Yes
+loc_4wkwr5qx,Holland and Barrett,Unit G40,Trinity Walk Shopping Centre,Wakefield,Yorkshire,WF1 1QS,England,,,,,,,Yes
+loc_4n8p5qe5,Holland and Barrett,Tesco Extra,"Phoenix Way, Longford Road",Coventry,Warwickshire,CV6 6AS,England,,,,,,,Yes
+loc_3ezjgn7v,Holland and Barrett,7 The Woolgate Centre,,Witney,Oxfordshire,OX28 6AP,England,,,,,,,Yes
+loc_325976e9,Holland and Barrett,19 King Street,,Belper,Derbyshire,DE56 1PW,England,,,,,,,Yes
+loc_3jx965pe,Holland and Barrett,Unit 41,The Chantry Centre,Andover,Hampshire,SP10 1LT,England,,,,,,,Yes
+loc_45jyq65n,Holland and Barrett,71 The Moor,,Sheffield,Yorkshire,S1 4PF,England,,,,,,,Yes
+loc_3mny5v2v,Holland and Barrett,Unit SU110,Derbion Shopping Centre,Derby,Derbyshire,DE1 2PG,England,,,,,,,Yes
+loc_3xznmky6,Holland and Barrett,10 Barkers Pool,,Sheffield,Yorkshire,S1 2HB,England,,,,,,,Yes
+loc_3g865ez7,Holland and Barrett,Unit 5A,10 Queen Street,Barnsley,South Yorkshire,S70 1RJ,England,,,,,,,Yes
+loc_4knv57wq,Holland and Barrett,2 Market Place,,Nuneaton,Warwickshire,CV11 4EA,England,,,,,,,Yes
+loc_46gpy685,Holland and Barrett,Tesco Extra Seacroft Green Centre,York Road,Leeds,Yorkshire,LS14 6JD,England,,,,,,,Yes
+loc_3re95nmq,Holland and Barrett,11 Crossgates Centre,Arndale,Leeds,Yorkshire,LS15 8ET,England,,,,,,,Yes
+loc_47jwp78q,Holland and Barrett,"Unit 17, 1 Bedford Way",The Beacon Shopping Centre,North Shields,Tyne & Wear,NE29 6RX,England,,,,,,,Yes
+loc_48znw9k6,Holland and Barrett,287-289 Whitley Road,,Whitley Bay,Tyne & Wear,NE26 2SN,England,,,,,,,Yes
+loc_396j2v9y,Holland and Barrett,177 High Street,,Northallerton,North Yorkshire,DL7 8JZ,England,,,,,,,Yes
+loc_3qg72wey,Holland and Barrett,16-18 King Street,,South Shields,Tyne & Wear,NA33 1HT,England,,,,,,,Yes
+loc_4y27mk9v,Holland and Barrett,47 Market Place,,Wantage,Oxfordshire,OX12 8AW,England,,,,,,,Yes
+loc_4pkn5p2k,Holland and Barrett,11 Vicar Lane,,Chesterfield,Derbyshire,S40 1PY,England,,,,,,,Yes
+loc_4n8p5qw5,Holland and Barrett,Unit 3,Meadowhall Shopping Centre,Sheffield,Yorkshire,S9 1EN,England,,,,,,,Yes
+loc_325976j9,Holland and Barrett,48-50 Above Bar Street,,Southampton,Hampshire,SO14 7GW,England,,,,,,,Yes
+loc_3vzpkgxm,Holland and Barrett,53 High Street,Shirley,Southampton,Hampshire,SO15 3NN,England,,,,,,,Yes
+loc_3ezjgnmv,Holland and Barrett,Unit 36 The Bridges,,Sunderland,Tyne & Wear,SR1 3DR,England,,,,,,,Yes
+loc_3jx965ve,Holland and Barrett,Unit 52,North East Outlet Centre,Dalton Park,County Durham,SR7 9HU,England,,,,,,,Yes
+loc_45jyq6mn,Holland and Barrett,48 Castle Street,,Hinckley,Leicestershire,LE10 1DB,England,,,,,,,Yes
+loc_4zr9m8vw,Holland and Barrett,47 Crystal Peaks,Mossborough,Sheffield,Yorkshire,S20 7PJ,England,,,,,,,Yes
+loc_3mny5vpv,Holland and Barrett,Unit 19,Swan Centre,Eastleigh,Hampshire,SO50 5SG,England,,,,,,,Yes
+loc_3xznmk76,Holland and Barrett,Unit 14 Carlton Lanes Shopping Centre,Carlton Street,Castleford,Yorkshire,WF10 1AD,England,,,,,,,Yes
+loc_3re95njq,Holland and Barrett,Unit F06A,Freeport Outlet Village,Glasshoughton,Yorkshire,WF10 4SB,England,,,,,,,Yes
+loc_46gpy6x5,Holland and Barrett,30 Market Place,,Thirsk,North Yorkshire,YO7 1LB,England,,,,,,,Yes
+loc_48znw976,Holland and Barrett,Unit 40,Castle Quay,Banbury,Oxfordshire,OX16 5UW,England,,,,,,,Yes
+loc_4y27mkgv,Holland and Barrett,Unit 13,McArthurglen Outlet Village,South Normanton,Derbyshire,DE55 2JW,England,,,,,,,Yes
+loc_47jwp7mq,Holland and Barrett,105a North Brook Road,,Newbury,Berkshire,RG14 1AB,England,,,,,,,Yes
+loc_4knv57qq,Holland and Barrett,Unit 8A,Park Gate Shopping Park,Rotherham,Yorkshire,S60 1TG,England,,,,,,,Yes
+loc_396j2vzy,Holland and Barrett,Unit 39,Wellington Square,Stockton on Tees,County Durham,TS18 1RG,England,,,,,,,Yes
+loc_3vzpkg8m,Holland and Barrett,18 High Street,,Winchester,Hampshire,SO23 9JX,England,,,,,,,Yes
+loc_3qg72wqy,Holland and Barrett,20 Salter Row,,Pontefract,Yorkshire,WF8 1BA,England,,,,,,,Yes
+loc_4pkn5pvk,Holland and Barrett,29a Bath Street,,Ilkeston,Derbyshire,DE7 8AH,England,,,,,,,Yes
+loc_4wkwr5ex,Holland and Barrett,45 High Street,,Newport,Isle of Wight,PO30 1SE,England,,,,,,,Yes
+loc_4n8p5q75,Holland and Barrett,Unit 10,11 Bury Street,Abingdon,Oxfordshire,OX14 3QX,England,,,,,,,Yes
+loc_32597629,Holland and Barrett,Dobbies Garden World,Barlborough,Chesterfield,Derbyshire,S43 4XN,England,,,,,,,Yes
+loc_4zr9m8yw,Holland and Barrett,Unit 4D2,Teeside Shopping Park,Teeside,Tyne & Wear,TS17 7BW,England,,,,,,,Yes
+loc_3ezjgnrv,Holland and Barrett,63-65 High Street,,Nottingham,Nottinghamshire,NG10 1HZ,England,,,,,,,Yes
+loc_3jx965re,Holland and Barrett,241 Banbury Road,Summertown,Oxford,Oxfordshire,OX2 7HN,England,,,,,,,Yes
+loc_3re95nyq,Holland and Barrett,36a High Street,,Rugby,Warwickshire,CV21 3BW,England,,,,,,,Yes
+loc_3g865er7,Holland and Barrett,"4, The Idle Wells Shopping Centre",,Sutton-in-Ashfield,Nottinghamshire,NG17 1BJ,England,,,,,,,Yes
+loc_45jyq68n,Holland and Barrett,35 Queen Street,,Oxford,Oxfordshire,OX1 1ER,England,,,,,,,Yes
+loc_4zr9m85w,Holland and Barrett,Unit E9A,Whiteley Village,Fareham,Hampshire,PO15 7PD,England,,,,,,,Yes
+loc_4knv57rq,Holland and Barrett,Unit 14,Orchard Centre,Didcot,Oxfordshire,OX11 7LG,England,,,,,,,Yes
+loc_46gpy655,Holland and Barrett,76-78 Cleveland Centre,Linthorpe Road,Middlesbrough,Cleveland,TS1 2LA,England,,,,,,,Yes
+loc_396j2v8y,Holland and Barrett,"Unit 2, Co-op Development",High Road,Beeston,Nottinghamshire,NG9 2JQ,England,,,,,,,Yes
+loc_48znw9x6,Holland and Barrett,Unit 15 The Square,Templars Shopping Centre,Cowley,Oxfordshire,OX4 3UZ,England,,,,,,,Yes
+loc_3vzpkgnm,Holland and Barrett,194 Middleton Grange,Shopping Centre,Hartlepool,Cleveland,TS24 7RR,England,,,,,,,Yes
+loc_3qg72wvy,Holland and Barrett,100 London Road,Headington,Oxford,Oxfordshire,OX3 9AJ,England,,,,,,,Yes
+loc_47jwp7kq,Holland and Barrett,Tesco Extra,Belle Vue Way,Hartlepool,County Durham,TS25 1UP,England,,,,,,,Yes
+loc_4y27mkjv,Holland and Barrett,9 Market Place,,Loughborough,Leicestershire,LE11 3EA,England,,,,,,,Yes
+loc_4pkn5p9k,Holland and Barrett,Unit 60,Four Seasons Centre,Mansfield,Nottinghamshire,NG18 1SX,England,,,,,,,Yes
+loc_4wkwr52x,Holland and Barrett,Units 1 & 2,Fosse Park Avenue,Leicester,Leicestershire,LE19 1HY,England,,,,,,,Yes
+loc_325976g9,Holland and Barrett,Unit 58 Westbury Mall,Fareham Shopping Centre,Fareham,Hampshire,PO16 0PQ,England,,,,,,,Yes
+loc_3jx965me,Holland and Barrett,1 High Street,,Ryde,Isle of Wight,PO33 2PN,England,,,,,,,Yes
+loc_3g865ej7,Holland and Barrett,Unit 27 Bowen Square,,Daventry,West Midlands,NN11 4DR,England,,,,,,,Yes
+loc_45jyq6xn,Holland and Barrett,Jubilee Way South,,Mansfield,Nottinghamshire,NG18 3RT,England,,,,,,,Yes
+loc_3mny5vkv,Holland and Barrett,52 Sheep Street,,Bicester,Oxfordshire,OX26 6LG,England,,,,,,,Yes
+loc_4zr9m8gw,Holland and Barrett,8-10 Clumber Street,,Nottingham,Nottinghamshire,NG1 3GA,England,,,,,,,Yes
+loc_3xznmke6,Holland and Barrett,Unit 14 Victoria Shopping Centre,Milton Street,Nottingham,Nottinghamshire,NG1 3QD,England,,,,,,,Yes
+loc_46gpy6z5,Holland and Barrett,617 Mansfield Road,,Sherwood,Nottinghamshire,NG5 2FW,England,,,,,,,Yes
+loc_3re95nqq,Holland and Barrett,Unit 85,86 French Gate,Doncaster,Yorkshire,DN1 1ST,England,,,,,,,Yes
+loc_48znw986,Holland and Barrett,36 Shires Walk,High Street,Leicester,Leicestershire,LE1 4FQ,England,,,,,,,Yes
+loc_47jwp7zq,Holland and Barrett,33 Horsefair Street,,Leicester,Leicestershire,LE1 3BP,England,,,,,,,Yes
+loc_396j2v7y,Holland and Barrett,5-6 Humberstone Mall,Haymarket Centre,Leicester,Leicestershire,LE1 3YB,England,,,,,,,Yes
+loc_3vzpkg2m,Holland and Barrett,17 Bridge Street,,Worksop,Nottinghamshire,S80 1DP,England,,,,,,,Yes
+loc_3qg72w6y,Holland and Barrett,118 High Street,,Gosport,Hampshire,PO12 1DU,England,,,,,,,Yes
+loc_4y27mkxv,Holland and Barrett,Unit 47,Lakeside Shopping Village,Doncaster,Yorkshire,DN4 5JH,England,,,,,,,Yes
+loc_4pkn5pzk,Holland and Barrett,183 Commercial Road,,Portsmouth,Hampshire,PO1 1EA,England,,,,,,,Yes
+loc_3ezjgn2v,Holland and Barrett,"Unit SU2, Bradgate Mall",Beaumont Leys Shopping Centre,Leicester,Leicestershire,LE4 1DE,England,,,,,,,Yes
+loc_4wkwr5jx,Holland and Barrett,11 Palmerston Road,,Southsea,Hampshire,PO5 3PZ,England,,,,,,,Yes
+loc_3ezjgn5v,Holland and Barrett,25-27 Coney Street,,York,Yorkshire,YO1 9QL,England,,,,,,,Yes
+loc_325976p9,Holland and Barrett,Unit 21,Festival Place,Basingstoke,Hampshire,RG21 7BE,England,,,,,,,Yes
+loc_3jx965qe,Holland and Barrett,37 The Parade,,Oadby,Leicestershire,LE2 5BB,England,,,,,,,Yes
+loc_45jyq6gn,Holland and Barrett,Unit 72,South Mall,York,Yorkshire,YO19 4TA,England,,,,,,,Yes
+loc_3mny5vev,Holland and Barrett,Unit 5,Market Cross,Selby,Yorkshire,YO8 4JS,England,,,,,,,Yes
+loc_3xznmk56,Holland and Barrett,4 West Dyke Road,,Redcar,Cleveland,TS10 1DZ,England,,,,,,,Yes
+loc_4zr9m8kw,Holland and Barrett,"Tesco Extra, Maidenwell Avenue",Hamilton,Leicester,Leicestershire,LE5 1BJ,England,,,,,,,Yes
+loc_4knv57pq,Holland and Barrett,25A High Street,,Cosham,Hampshire,PO6 3BT,England,,,,,,,Yes
+loc_46gpy6m5,The Grocery,32 Mulberry Way,Armthorpe,Doncaster,,DN3 3UE,England,,,,,,,Yes
+loc_3re95n7q,Holland and Barrett,Unit NU4,Monks Cross Retail Park,York,Yorkshire,YO32 9GX,England,,,,,,,Yes
+loc_48znw966,Holland and Barrett,11 Dukes Walk,,Waterlooville,Hampshire,PO7 7HS,England,,,,,,,Yes
+loc_47jwp9qq,Wellington Wellbeing,Trowse Lane,,Stratfield Saye,Hampshire,RG7 2BT,England,,,,,,,Yes
+loc_396j2qpy,Holland and Barrett,Unit SU3,Meridan Shopping Centre,Havant,Hampshire,PO9 1UN,England,,,,,,,Yes
+loc_3vzpk6rm,Holland and Barrett,"Unit 9, Westbrook Walk",High Street,Alton,Hampshire,GU34 1EY,England,,,,,,,Yes
+loc_3qg7289y,Holland and Barrett,57-58 Broad Street Mall,,Reading,Berkshire,RG1 7QE,England,,,,,,,Yes
+loc_4y27m65v,Holland and Barrett,Unit 29a,The Oracle Centre,Reading,Berkshire,RG1 2AG,England,,,,,,,Yes
+loc_4wkwr6mx,Holland and Barrett,Tesco Extra - Reading,Napier Road,Reading,Berkshire,RG1 8DF,England,,,,,,,Yes
+loc_4n8p5rk5,Holland and Barrett,7 Carolgate,,East Retford,Nottinghamshire,DN22 6BZ,England,,,,,,,Yes
+loc_32597kw9,Holland and Barrett,Unit 18,Rams Walk,Petersfield,Hampshire,GU32 3JA,England,,,,,,,Yes
+loc_3ezjgp9v,Holland and Barrett,Unit 4,St Mary's Place,Market Harborough,Leicestershire,LE16 7DR,England,,,,,,,Yes
+loc_3jx96jke,Holland and Barrett,25 Abington Street,,Northampton,Northamptonshire,NN1 2AN,England,,,,,,,Yes
+loc_3g865nq7,Holland and Barrett,2-3 Market Place,,Melton Mowbray,Leicestershire,LE13 1XD,England,,,,,,,Yes
+loc_3mny5m6v,Holland and Barrett,233 Fleet Road,,Fleet,Hampshire,GU51 3BN,England,,,,,,,Yes
+loc_45jyqk9n,Holland and Barrett,Unit 8E,Weston Favell Centre,Northampton,Northamptonshire,NN3 8JZ,England,,,,,,,Yes
+loc_3xznm686,Holland and Barrett,19 Peach Street,,Wokingham,Berkshire,RG40 1XG,England,,,,,,,Yes
+loc_4zr9m6xw,Holland and Barrett,40 Friars Square,,Aylesbury,Buckinghamshire,HP20 2SP,England,,,,,,,Yes
+loc_4knv5g8q,Holland and Barrett,16-17 Stodman Street,,Newark,Nottinghamshire,NG24 1AT,England,,,,,,,Yes
+loc_46gpy7v5,Holland and Barrett,5a West Street,,Farnham,Surrey,GU9 7DN,England,,,,,,,Yes
+loc_3re956vq,Holland and Barrett,19 North Street,,Chichester,Sussex,PO19 1LB,England,,,,,,,Yes
+loc_48znwvq6,Holland and Barrett,Unit 16,Marshalls Yard,Gainsborough,Lincolnshire,DN21 2NA,England,,,,,,,Yes
+loc_396j2qyy,Holland and Barrett,34 Union Street,,Aldershot,Hampshire,GU11 1EW,England,,,,,,,Yes
+loc_3vzpk65m,Holland and Barrett,Unit 4 (35),Princes mead Shopping Centre,Farnborough,Hampshire,GU14 6YA,England,,,,,,,Yes
+loc_47jwp9vq,Holland and Barrett,89 Midsummer Arcade Centre,,Milton Keynes,Buckinghamshire,MK9 3BB,England,,,,,,,Yes
+loc_4y27m6wv,Holland and Barrett,Unit 40,Eden Walk,High Wycombe,Buckinghamshire,HP11 2BY,England,,,,,,,Yes
+loc_4pkn567k,Holland and Barrett,Unit 55,High Street,Bracknell,Berkshire,RG12 1EA,England,,,,,,,Yes
+loc_4wkwr6gx,Holland and Barrett,2 Grace Reynolds Walk,,Camberley,Surrey,GU15 3SN,England,,,,,,,Yes
+loc_4n8p5rx5,Holland and Barrett,Unit 16 The Concourse,Brunel Centre,Bletchley,Buckinghamshire,MK2 2DL,England,,,,,,,Yes
+loc_32597kn9,Apothecary 27,71-73 Wey Hill,,Haslemere,Surrey,GU27 1HN,England,,,,,,,Yes
+loc_3ezjgpqv,Holland and Barrett,Unit 8,The Newlands,Kettering,Northamptonshire,NN16 8JL,England,,,,,,,Yes
+loc_3jx96jze,Holland and Barrett,69 High Street,,Maidenhead,Berkshire,SL6 1JX,England,,,,,,,Yes
+loc_45jyqkzn,Holland and Barrett,43 Queens Square,,Corby,Northamptonshire,NN17 1PD,England,,,,,,,Yes
+loc_3mny5mgv,Holland and Barrett,"Unit 30, 69 Corn Lane",Swan Gate Shopping Centre,Wellingborough,Northamptonshire,NN8 1EZ,England,,,,,,,Yes
+loc_3xznm6g6,Holland and Barrett,1 Winchester Court,Kingston,Milton Keynes,Buckinghamshire,MK10 0AH,England,,,,,,,Yes
+loc_4zr9m67w,Holland and Barrett,17 London Road,,Bognor Regis,Sussex,PO21 1PQ,England,,,,,,,Yes
+loc_46gpy7j5,Holland and Barrett,37 High Street,,Scunthorpe,Lincolnshire,DN15 6SB,England,,,,,,,Yes
+loc_3re956xq,Holland and Barrett,Unit 35,Isaac Newton Centre,Grantham,Lincolnshire,NG31 6EE,England,,,,,,,Yes
+loc_4y27m6zv,Holland and Barrett,"Unit A1c, South Terrace",Rushden Lakes,Rushden,Northamptonshire,NN10 6FS,England,,,,,,,Yes
+loc_48znwvg6,Holland and Barrett,81 High Street,Godalming,Godalming,Surrey,GU7 1AW,England,,,,,,,Yes
+loc_47jwp9gq,Holland and Barrett,1-2 Sandgate,,Whitby,North Yorkshire,YO22 4DB,England,,,,,,,Yes
+loc_396j2q5y,Holland and Barrett,52 High Street,,Chesham,Buckinghamshire,HP5 1EP,England,,,,,,,Yes
+loc_3vzpk6mm,Holland and Barrett,23 Peascod Street,,Windsor,Berkshire,SL4 1DU,England,,,,,,,Yes
+loc_3qg728zy,Holland and Barrett,43 Sycamore Road,,Amersham,Buckinghamshire,HP6 5EQ,England,,,,,,,Yes
+loc_4knv5gkq,Holland and Barrett,Unit 5,Waterbourne Walk,Leighton Buzzard,Bedfordshire,LU7 1DH,England,,,,,,,Yes
+loc_4wkwr6yx,Holland and Barrett,Unit 2,Queensmere Centre,Slough,Berkshire,SL1 1DB,England,,,,,,,Yes
+loc_4pkn56qk,Holland and Barrett,Tesco Extra,"Brunel Way, Wellington Street",Slough,Berkshire,SL1 1XW,England,,,,,,,Yes
+loc_4n8p5r95,Holland and Barrett,Unit 28,The Friary Centre,Guildford,Surrey,GU1 4YN,England,,,,,,,Yes
+loc_3ezjgpxv,Holland and Barrett,30 Wolsey Walk Shopping Centre,,Woking,Surrey,GU21 6XX,England,,,,,,,Yes
+loc_3jx96jye,Holland and Barrett,2D Station Road,,Gerrards Cross,Buckinghamshire,SL9 8EL,England,,,,,,,Yes
+loc_47jwp95q,Holland and Barrett,35 The Precinct,,Egham,Surrey,TW20 9HN,England,,,,,,,Yes
+loc_3g865n27,Holland and Barrett,45 High Street,,Littlehampton,West Susex,BN17 5EJ,England,,,,,,,Yes
+loc_3mny5m7v,Holland and Barrett,319 High Street,,Lincoln,Lincolnshire,LN5 7DW,England,,,,,,,Yes
+loc_3xznm6p6,Holland and Barrett,Wragby Road,,Lincoln,Lincolnshire,LN2 4QQ,England,,,,,,,Yes
+loc_4zr9m6zw,Holland and Barrett,Unit 37 Broadwalk North,The Quadrant Centre,Dunstable,Bedfordshire,LU5 4RH,England,,,,,,,Yes
+loc_46gpy795,Holland and Barrett,Unit 29,Elmsleigh Centre,Staines,Middlesex,TW18 4QB,England,,,,,,,Yes
+loc_4knv5g6q,Holland and Barrett,123 The Street,,Rustington,Sussex,BN16 3DN,England,,,,,,,Yes
+loc_3re956kq,Holland and Barrett,Unit 8-8A,The Sainsbury Centre,Chertsey,Surrey,KT16 9AG,England,,,,,,,Yes
+loc_48znwvy6,Holland and Barrett,Unit 2B,The Lane,Addlestone,Surrey,KT15 2GN,England,,,,,,,Yes
+loc_396j2qwy,Holland and Barrett,17-19 Pantile Walk,The Pavillions,Uxbridge,Middlesex,UB8 1LP,England,,,,,,,Yes
+loc_3vzpk6wm,Holland and Barrett,57 High Street,,Stamford,Lincolnshire,PE9 2AW,England,,,,,,,Yes
+loc_3qg728yy,Holland and Barrett,205 Intu Uxbridge,"The Chimes Shopping Centre, High Street",Uxbridge,Middlesex,UB8 1GB,England,,,,,,,Yes
+loc_4pkn568k,Holland and Barrett,Unit 187c,The Marlowes Centre,Hemel Hempstead,Hertfordshire,HP1 1BB,England,,,,,,,Yes
+loc_4wkwr6nx,Holland and Barrett,125 High street,,Rickmansworth,Hertfordshire,WD3 1AN,England,,,,,,,Yes
+loc_4n8p5rz5,Holland and Barrett,15 Silver Street,,Bedford,Bedfordshire,MK40 1SY,England,,,,,,,Yes
+loc_32597kr9,Holland and Barrett,19 High Street,,Weybridge,Surrey,KT13 8AX,England,,,,,,,Yes
+loc_3ezjgp6v,Holland and Barrett,60 Toll Gravel,,Beverley,Humberside,HU17 9BN,England,,,,,,,Yes
+loc_3g865n97,Holland and Barrett,93 High Street,,Ruislip,Middlesex,HA4 8JB,England,,,,,,,Yes
+loc_3jx96jwe,Holland and Barrett,"Unit 1-2, Tesco Superstore",Riverfield Drive,Bedford,Bedfordshire,MK41 0SE,England,,,,,,,Yes
+loc_45jyqken,Holland and Barrett,Unit 23,The Heart,Walton-on-Thames,Surrey,KT12 1GH,England,,,,,,,Yes
+loc_3mny5m8v,Holland and Barrett,Unit 142-144 The Mall,,Luton,Bedfordshire,LU1 2LJ,England,,,,,,,Yes
+loc_3xznm626,Holland and Barrett,"Unit 9, New Road",West Durrington,Worthing,West Susex,BN13 3PB,England,,,,,,,Yes
+loc_4zr9m6nw,Holland and Barrett,3 Finkle Street,,Cottingham,Humberside,HU16 4AU,England,,,,,,,Yes
+loc_3vzpk6qm,Holland and Barrett,Unit 9a,The Longford Centre,Feltham,Middlesex,TW13 4BH,England,,,,,,,Yes
+loc_4knv5gzq,Holland and Barrett,35 Oakdene Parade,,Cobham,Surrey,KT11 2LR,England,,,,,,,Yes
+loc_46gpy7e5,Holland and Barrett,18 Brunswick Shopping Centre,,Scarborough,Yorkshire,YO11 1UE,England,,,,,,,Yes
+loc_3re956gq,Holland and Barrett,151 Field End Road,,Eastcote,Middlesex,HA5 1QL,England,,,,,,,Yes
+loc_47jwp96q,Holland and Barrett,Unit 40,Harlequin Shopping Centre,Watford,Hertfordshire,WD17 2TE,England,,,,,,,Yes
+loc_396j2qmy,Holland and Barrett,Tesco Extra 239-241 Lower High Street,,Watford,Hertfordshire,WD17 2BD,England,,,,,,,Yes
+loc_3qg728ky,The Juice Smith,Winton Place,16 Blackhills,Esher,Surrey,KT10 9JW,England,,,,,,,Yes
+loc_4y27m6vv,Holland and Barrett,34 The Broadway,,Southall,Middlesex,UB1 1PT,England,,,,,,,Yes
+loc_4pkn56jk,Holland and Barrett,60 Montague Street,,Worthing,Sussex,BN11 3 HE,England,,,,,,,Yes
+loc_4wkwr67x,Holland and Barrett,233-235 High Street,,Hounslow,Middlesex,TW3 1EA,England,,,,,,,Yes
+loc_4n8p5rj5,Holland and Barrett,24 The Broadway,,Greenford,Middlesex,UB6 9PT,England,,,,,,,Yes
+loc_32597kx9,Holland and Barrett,Tesco Extra,110 Ferenway,Kingston Upon Hull,Humberside,HU2 8LN,England,,,,,,,Yes
+loc_3ezjgpwv,Holland and Barrett,Unit 7,Grand Buildings Jameson Street,Hull,Yorkshire,HU1 3JX,England,,,,,,,Yes
+loc_3jx96jge,Holland and Barrett,11 St. Peters Street,,St. Albans,Hertfordshire,AL1 3DH,England,,,,,,,Yes
+loc_45jyqkrn,Holland and Barrett,63 Broad Street,,Teddington,London,TW11 8QZ,England,,,,,,,Yes
+loc_3mny5mjv,Holland and Barrett,Units 3-4,St Anns Shopping Centre,Harrow,Middlesex,HA1 1AS,England,,,,,,,Yes
+loc_4zr9m6qw,Holland and Barrett,Swan Walk,West Street,Horsham,Sussex,RH12 1PP,England,,,,,,,Yes
+loc_4knv5gjq,Holland and Barrett,185 High Street,,Dorking,Surrey,RH4 1RU,England,,,,,,,Yes
+loc_46gpy7r5,Holland and Barrett,13 King Street,,Twickenham,Surrey,TW1 3SD,England,,,,,,,Yes
+loc_3re956pq,Holland and Barrett,Unit 20,The Swan Shopping Centre,Leatherhead,Surrey,KT22 8AH,England,,,,,,,Yes
+loc_47jwp9jq,Holland and Barrett,12-13 Apple Market,,Kingston,Surrey,KT1 1JE,England,,,,,,,Yes
+loc_3qg728gy,Holland and Barrett,51-52 George Street,,Richmond,Surrey,TW9 1HJ,England,,,,,,,Yes
+loc_4y27m62v,Holland and Barrett,57 Clarence Street,,Kingston,Surrey,KT1 1RB,England,,,,,,,Yes
+loc_4pkn56kk,Holland and Barrett,61-62 Ealing Broadway,The Broadway,Ealing,London,W5 5JY,England,,,,,,,Yes
+loc_4wkwr6kx,Source Bulk Foods Richmond,16-18 The Quadrant,,Richmond,London,TW9 1BP,England,,,,,,,Yes
+loc_48znwvm6,Holland and Barrett,61 The Broadway,,West Ealing,London,W13 9BP,England,,,,,,,Yes
+loc_4n8p5r85,Holland and Barrett,488 High Road,,Wembley,Middlesex,HA9 7BH,England,,,,,,,Yes
+loc_32597k59,Holland and Barrett,"Unit 51, London Designer Outlet",Wembley Park Boulevard,Wembley,Middlesex,HA9 0FD,England,,,,,,,Yes
+loc_3jx96jxe,Holland and Barrett,99 Hermitage Road,,Hitchin,Hertfordshire,SG5 1DG,England,,,,,,,Yes
+loc_3ezjgpzv,Holland and Barrett,Unit 5,The Broadwalk Shopping Centre,Edgware,Middlesex,HA8 7BD,England,,,,,,,Yes
+loc_3g865n87,Holland and Barrett,123 Shenley Road,,Borehamwood,Hertfordshire,WD6 1AG,England,,,,,,,Yes
+loc_45jyqkjn,Holland and Barrett,122 High Street,,Acton,London,W3 6QX,England,,,,,,,Yes
+loc_3mny5mnv,Holland and Barrett,Unit 50,Ashley Centre,Epsom,Surrey,KT18 5DB,England,,,,,,,Yes
+loc_3xznm6z6,Holland and Barrett,21 High Street,St Neots,Cambridge,Cambridgeshire,PE19 1BU,England,,,,,,,Yes
+loc_4zr9m6rw,Holland and Barrett,350 High Road,,Chiswick,London,W4 5TA,England,,,,,,,Yes
+loc_4knv5gnq,Holland and Barrett,Unit 12A,Serpentine Green Shopping Centre,Peterborough,Cambridgeshire,PE7 8BE,England,,,,,,,Yes
+loc_3re956eq,Holland and Barrett,95 High Street,,New Malden,Surrey,KT3 4BP,England,,,,,,,Yes
+loc_48znwvz6,Source Bulk Foods Chiswick,24 Turnham Green Terrace,,Chiswick,London,W4 1QP,England,,,,,,,Yes
+loc_47jwp9yq,Holland and Barrett,Tesco Holmbush Centre,Upper Shoreham Road,Shoreham-By-Sea,West Sussex,BN43 6TD,England,,,,,,,Yes
+loc_3vzpk6em,Holland and Barrett,69 High Street,,Harlesden,London,NW10 4NS,England,,,,,,,Yes
+loc_3qg728ry,Holland and Barrett,Unit 19,Queensgate Shopping Centre Lower Mall,Peterborough,Cambridgeshire,PE1 1NH,England,,,,,,,Yes
+loc_4pkn56rk,Holland and Barrett,Unit 100,The Galleria Outlet Centre,Hatfield,Hertfordshire,AL10 0XR,England,,,,,,,Yes
+loc_4y27m6ev,Holland and Barrett,11 Leys Avenue,,Letchworth,Hertfordshire,SG6 3EA,England,,,,,,,Yes
+loc_4wkwr6xx,Holland and Barrett,Unit 25A,Hammersmith Broadway Shopping Centre,Hammersmith,London,W6 9YD,England,,,,,,,Yes
+loc_4n8p5r25,Holland and Barrett,Unit Y10,Brent Cross Shopping Centre,Prince Charles Drive,London,NW4 3FE,England,,,,,,,Yes
+loc_3ezjgp8v,Holland and Barrett,"Unit 1096, Westfield London Shopping Centre",Ariel Way,White City,London,W12 7GB,England,,,,,,,Yes
+loc_3g865nx7,Holland and Barrett,112 Shepherds Bush Centre,,Shepherds Bush,London,W12 8PP,England,,,,,,,Yes
+loc_45jyqkvn,Holland and Barrett,99-101 High Street,Putney,Westminster,London,SW15 1SS,England,,,,,,,Yes
+loc_3xznm6r6,Holland and Barrett,68 High Street,,Reigate,Surrey,RH2 9AP,England,,,,,,,Yes
+loc_4knv5geq,Holland and Barrett,54 Howardsgate,,Welwyn Garden City,Hertfordshire,AL8 6BP,England,,,,,,,Yes
+loc_46gpy7q5,Holland and Barrett,Unit 106a,Centre Court Shopping Centre,Wimbledon,London,SW19 8YE,England,,,,,,,Yes
+loc_3re956rq,Holland and Barrett,162 Portobello Road,,Notting Hill,London,W11 2EB,England,,,,,,,Yes
+loc_48znwvp6,Holland and Barrett,115 High Street,,Barnet,Hertfordshire,EN5 5UZ,England,,,,,,,Yes
+loc_47jwp9pq,Holland and Barrett,Unit 44,Queensway,Stevenage,Hertfordshire,SG1 1EE,England,,,,,,,Yes
+loc_396j2q2y,Source Bulk Foods Putney,31 Stuart Road,,London,,SW19 8DJ,England,,,,,,,Yes
+loc_3vzpk6km,Holland and Barrett,20 Temple Fortune Parade,Finchley Road,City of London,London,NW11 0QS,England,,,,,,,Yes
+loc_4y27m6mv,Holland and Barrett,81 Golders Green Road,,Golders Green,London,NW11 8EN,England,,,,,,,Yes
+loc_4pkn565k,Holland and Barrett,130 Notting Hill Gate,,City of London,London,W11 3QG,England,,,,,,,Yes
+loc_4wkwr6rx,Holland and Barrett,2-10 Jerdan Place,,Fulham,London,SW6 1BW,England,,,,,,,Yes
+loc_4n8p5r55,Holland and Barrett,167 Kensington High Street,,Kensington & Chelsea,London,W8 6SH,England,,,,,,,Yes
+loc_32597k79,Holland and Barrett,192 Earls Court Road,,Kensington & Chelsea,London,SW5 9QF,England,,,,,,,Yes
+loc_3ezjgpgv,Holland and Barrett,96-98 Kilburn High Road,,Kilburn,London,NW6 4HS,England,,,,,,,Yes
+loc_3g865n57,Holland and Barrett,50 London Road,,Morden,Surrey,SM4 5BE,England,,,,,,,Yes
+loc_3jx96j6e,Holland and Barrett,Su93,Southside Shopping Centre,Wandsworth,London,SW18 4DG,England,,,,,,,Yes
+loc_45jyqkqn,Holland and Barrett,148 High Street,,Sutton,Surrey,SM1 1LX,England,,,,,,,Yes
+loc_4zr9m6mw,Holland and Barrett,"Unit 1a, Albany Gate",Darkes Lane,Potters Bar,Hertfordshire,EN6 1DN,England,,,,,,,Yes
+loc_4knv5g5q,Source Bulk Foods West Hampstead,276 West End Lane,,,London,NW6 1LJ,England,,,,,,,Yes
+loc_3re9565q,Holland and Barrett,Unit 12,The Promenades Shopping Centre,Bridlington,Yorkshire,YO15 2DX,England,,,,,,,Yes
+loc_47jwp9wq,Holland and Barrett,32 Queensway,Bayswater,Westminster,London,W2 4QW,England,,,,,,,Yes
+loc_48znwvw6,Holland and Barrett,Tesco Extra,Reigate Road,"Hockwood, Horley",Surrey,RH6 0AT,England,,,,,,,Yes
+loc_396j2qjy,Holland and Barrett,38 County Mall,,Crawley,Sussex,RH10 1FF,England,,,,,,,Yes
+loc_3qg7287y,Holland and Barrett,Unit 20-24 Chequers Court Shopping Centre,,Huntingdon,Cambridgeshire,PE29 3LN,England,,,,,,,Yes
+loc_4y27m67v,Holland and Barrett,220 Fulham Road,,Fulham,London,SW10 9NB,England,,,,,,,Yes
+loc_4pkn56nk,Holland and Barrett,Unit 14 Tandem Centre,,Colliers Wood,London,SW19 2TY,England,,,,,,,Yes
+loc_4wkwr6wx,Chelsea Health Store,400 Kings Road,,London,,SW10 0LJ,England,,,,,,,Yes
+loc_32597k99,Holland and Barrett,11 Harben Parade,,Swiss Cottage,London,NW3 6JP,England,,,,,,,Yes
+loc_3ezjgpjv,Holland and Barrett,748 High Road,,North Finchley,London,N12 9QG,England,,,,,,,Yes
+loc_45jyqkyn,Holland and Barrett,68 George Street,,Hove,Sussex,BN3 3YD,England,,,,,,,Yes
+loc_3mny5myv,Holland and Barrett,55 High Street,,St Johns Wood,London,NW8 7NL,England,,,,,,,Yes
+loc_4zr9m69w,Holland and Barrett,3 Warwick Quadrant,London Road,Redhill,Surrey,RH1 1NN,England,,,,,,,Yes
+loc_3vzpk6jm,Holland and Barrett,3 Mitcham Road,,Tooting,London,SW17 9PA,England,,,,,,,Yes
+loc_3xznm6n6,Holland and Barrett,51-53 St. Johns Road,,Clapham,London,SW11 1QW,England,,,,,,,Yes
+loc_46gpy7p5,Source Bulk Foods Battersea,99 St John's Road,,,London,SW11 1QY,England,,,,,,,Yes
+loc_4knv5gvq,Holland and Barrett,Unit 1,159/163 Edgware Road,Edgware,London,W2 2HR,England,,,,,,,Yes
+loc_47jwp9rq,Holland and Barrett,73 Kings Road,,Chelsea,London,SW3 4NX,England,,,,,,,Yes
+loc_396j2qxy,Holland and Barrett,Unit 3B,50 Brompton Road,Knightsbridge,London,SW3 1BW,England,,,,,,,Yes
+loc_3qg728py,Holland and Barrett,526 Oxford Street,,Marylebone,London,W1C 1LW,England,,,,,,,Yes
+loc_4y27m6rv,Holland and Barrett,78 Baker Street,,Westminster,London,W1U 6TD,England,,,,,,,Yes
+loc_4wkwr68x,Selfridges,400 Oxford Street,,London,,W1A 1AB,England,,,,,,,Yes
+loc_4pkn56yk,Holland and Barrett,190 Balham High Road,,Balham,London,SW12 9BP,England,,,,,,,Yes
+loc_32597k89,Holland and Barrett,104 High Street,,Marylebone,London,W1U 4RR,England,,,,,,,Yes
+loc_3jx96jne,Holland and Barrett,35 Hall Place,,Spalding,Lincolnshire,PE11 1SQ,England,,,,,,,Yes
+loc_3g865ny7,Holland and Barrett,"Unit C12, West One Shopping Centre",Oxford Street,Westminster,London,W1C 2JS,England,,,,,,,Yes
+loc_3ezjgpvv,Holland and Barrett,Unit 32,Churchill Square,Brighton,Sussex,BN1 2TD,England,,,,,,,Yes
+loc_3xznm6x6,Holland and Barrett,"Unit 2-3, Victoria Shopping Centre",Buckingham Palace Road,Westminster,London,SW1W 9SJ,England,,,,,,,Yes
+loc_4knv5g2q,Holland and Barrett,155 Muswell Hill Broadway,,Muswell Hill,London,N10 3RS,England,,,,,,,Yes
+loc_4zr9m6jw,Holland and Barrett,"66a, 67, 68 North Street",Town Centre,Brighton,Sussex,BN1 1RH,England,,,,,,,Yes
+loc_396j2qry,Holland and Barrett,Unit Plaza House Development,191-200 High Street,Camden,London,NW1 7BT,England,,,,,,,Yes
+loc_3re956wq,Holland and Barrett,6-8 Maddox Street,,Mayfair,London,W1S 1NJ,England,,,,,,,Yes
+loc_48znwvr6,Holland and Barrett,242 Kentish Town Road,,Kentish Town,London,NW5 2AB,England,,,,,,,Yes
+loc_47jwp92q,Holland and Barrett,86 Victoria Street,,Westminster,London,SW1E 5JL,England,,,,,,,Yes
+loc_3vzpk69m,Holland and Barrett,10 Warwick Way,Pimlico,Westminster,London,SW1V 1QT,England,,,,,,,Yes
+loc_3qg728my,Holland and Barrett,105 London Road,,Brighton,Sussex,BN1 4JF,England,,,,,,,Yes
+loc_4pkn56mk,Holland and Barrett,65 Tottenham Court Road,,Bloomsbury,London,W1T 2EU,England,,,,,,,Yes
+loc_4wkwr6vx,White Pine Forest,35-36 Rathbone Place,,London,,W1T 1JN,England,,,,,,,Yes
+loc_4n8p5rm5,Holland and Barrett,52 Oxford Street,,Westminster,London,W1D 1BG,England,,,,,,,Yes
+loc_3g865nw7,Holland and Barrett,71 Church Walk,,Burgess Hill,Sussex,RH15 9BQ,England,,,,,,,Yes
+loc_3ezjgpyv,Holland and Barrett,Unit 3,The Avenue 253-254,Tottenham Court Road,London,W1T 7RD,England,,,,,,,Yes
+loc_3jx96jee,Holland and Barrett,88 Chase Side,,Southgate,London,N14 5PH,England,,,,,,,Yes
+loc_45jyqkwn,Holland and Barrett,210 High Road,,Streatham,London,SW16 1BB,England,,,,,,,Yes
+loc_3mny5mxv,Holland and Barrett,Springfields Factory Outlet,Camelgate,Spalding,Lincolnshire,PE12 6EU,England,,,,,,,Yes
+loc_3xznm6q6,Corinthia Hotel,Whitehall Place,,London,,SW1A 2BD,England,,,,,,,Yes
+loc_4knv5gmq,Holland and Barrett,39 Long Acre,,Covent Garden,London,WC2E 9LG,England,,,,,,,Yes
+loc_46gpy7n5,Source Bulk Foods Crouch End,"3 The Broadway, London N8 8DU",,,London,N8 8DU,England,,,,,,,Yes
+loc_48znwve6,Holland and Barrett,37 Bedford Street,,Covent Garden,London,WC2E 9EN,England,,,,,,,Yes
+loc_3re956zq,Holland and Barrett,"Unit 16, Embankment Shopping Centre",Villiers Street,Westminster,London,WC2N 6NN,England,,,,,,,Yes
+loc_396j2qey,Holland and Barrett,Unit 29,The Brunswick Centre,Camden,London,WC1N 1AE,England,,,,,,,Yes
+loc_3vzpk6ym,Holland and Barrett,390-391 Strand,,Charing Cross,London,WC2R 0LT,England,,,,,,,Yes
+loc_3qg728jy,Holland and Barrett,72 Southampton Row,,Holborn,London,WC1B 4AR,England,,,,,,,Yes
+loc_4y27m6nv,Holland and Barrett,452 Holloway Road,,Islington,London,N7 6QA,England,,,,,,,Yes
+loc_4pkn56ek,Holland and Barrett,956 Brighton Road,,Purley,Surrey,CR8 2LP,England,,,,,,,Yes
+loc_4wkwr6px,Holland and Barrett,490 Brixton Road,,Brixton,London,SW9 8EQ,England,,,,,,,Yes
+loc_4n8p5rn5,Holland and Barrett,8 High Holborn,,Camden,London,WC1V 6DR,England,,,,,,,Yes
+loc_32597kv9,Holland and Barrett,144-146 Fetter Lane,,Holborn,London,EC4A 1BT,England,,,,,,,Yes
+loc_3ezjgpev,Holland and Barrett,250 Green Lanes,Palmers Green,Southgate,London,N13 5TU,England,,,,,,,Yes
+loc_3jx96j8e,Holland and Barrett,129-131 High Road,,Wood Green,London,N22 6BB,England,,,,,,,Yes
+loc_3g865n77,Holland and Barrett,66-68 High Road,,Wood Green,London,N22 6HL,England,,,,,,,Yes
+loc_45jyqkpn,Holland and Barrett,21-22 Upper Street,,Islington,London,N1 0PQ,England,,,,,,,Yes
+loc_3mny5mwv,Holland and Barrett,212 Upper Street,,Islington,London,N1 1RL,England,,,,,,,Yes
+loc_3xznm6w6,Holland and Barrett,Unit 20-21,The Orchards,Haywards Heath,Sussex,RH16 3TH,England,,,,,,,Yes
+loc_4zr9m62w,Holland and Barrett,53-54 North End,,Croydon,Surrey,CR0 1UG,England,,,,,,,Yes
+loc_46gpy7w5,Holland and Barrett,1098-99 The Mall,Whitgift Centre,Croydon,Surrey,CR0 1UY,England,,,,,,,Yes
+loc_48znwv26,Holland and Barrett,130-131 Cheapside,,The City,London,EC2V 6BJ,England,,,,,,,Yes
+loc_47jwp9eq,Holland and Barrett,303 Walworth Road,,Southwark,London,SE17 2TG,England,,,,,,,Yes
+loc_396j2qgy,Holland and Barrett,Unit 12,Butterfly Walk Shopping Centre,Camberwell Green,London,SE5 8RW,England,,,,,,,Yes
+loc_3vzpk67m,Holland and Barrett,43 Borough High Street,Southwark,City of London,London,SE1 1LZ,England,,,,,,,Yes
+loc_3qg728ny,Holland and Barrett,88-92 Moorgate,,City of London,London,EC2M 6SE,England,,,,,,,Yes
+loc_4y27m6qv,Holland and Barrett,61 Friargate,Freshney Place Shopping Centre,Grimsby,Lincolnshire,DN31 1ED,England,,,,,,,Yes
+loc_4wkwr69x,Holland and Barrett,87 Gracechurch Street,,Langbourn,London,EC3V 0AA,England,,,,,,,Yes
+loc_3ezjgpkv,Holland and Barrett,Unit 34,Palace Gardens,Enfield,Middlesex,EN2 6SN,England,,,,,,,Yes
+loc_4n8p5ry5,Holland and Barrett,85-86 Old Broad Street,,City of London,London,EC2M 1PR,England,,,,,,,Yes
+loc_3jx96j7e,Holland and Barrett,16-18 London Street,,Fenchurch,London,EC3R 7JP,England,,,,,,,Yes
+loc_45jyqknn,Holland and Barrett,No 19 Church Walk Shopping Centre,,Caterham,Surrey,CR3 6RT,England,,,,,,,Yes
+loc_3mny5mqv,Holland and Barrett,25-27 Birchley Green,,Hertford,Hertfordshire,SG14 1BN,England,,,,,,,Yes
+loc_4knv5g9q,Holland and Barrett,11 Bridge Street,,St. Ives,Cambridgeshire,PE27 5EH,England,,,,,,,Yes
+loc_3xznm6v6,Holland and Barrett,Unit 2B,Kingsland Shopping Centre,Dalston cross,London,E8 2LX,England,,,,,,,Yes
+loc_48znwvj6,Holland and Barrett,"Unit 9, The Aylesham Centre",Rye Lane,Peckham,London,SE15 5EW,England,,,,,,,Yes
+loc_46gpy725,Holland and Barrett,464-466 High Road,,Tottenham,London,N17 9JD,England,,,,,,,Yes
+loc_3re9562q,Holland and Barrett,Unit 4,75 Whitechapel Road,Whitechapel,London,E1 1DU,England,,,,,,,Yes
+loc_396j2qvy,Holland and Barrett,Unit 2C South Mall,Edmonton Green Shopping Centre,Edmonton Green,London,N9 0AL,England,,,,,,,Yes
+loc_3vzpk6gm,Holland and Barrett,376 Mare Street,,Hackney,London,E8 1HR,England,,,,,,,Yes
+loc_3qg728wy,Holland and Barrett,"Unit 6, Surrey Quays Shopping Centre",Redriff Road,Surrey Quays,London,SE16 1LL,England,,,,,,,Yes
+loc_4y27m6kv,Holland and Barrett,Hewitts Circus Retail Park,Hewitts Avenue,Cleethorpes,Lincolnshire,DN35 9QR,England,,,,,,,Yes
+loc_4pkn56pk,Holland and Barrett,Tesco Extra,Brookfield Centre,Cheshunt,Hertfordshire,EN8 0TA,England,,,,,,,Yes
+loc_4wkwr65x,Holland and Barrett,"Unit 73, The Pavillion",High Street,Waltham Cross,Hertfordshire,EN8 7BZ,England,,,,,,,Yes
+loc_4n8p5rq5,Holland and Barrett,216 High Street,,Beckenham,Kent,BR3 1EN,England,,,,,,,Yes
+loc_32597k69,Holland and Barrett,47 Market Place,,Boston,Lincolnshire,PE21 6NF,England,,,,,,,Yes
+loc_3jx96j5e,Holland and Barrett,6 Angel Pavement,,Royston,Hertfordshire,SG8 9AS,England,,,,,,,Yes
+loc_3g865ne7,Holland and Barrett,33 Winslade Way,,Catford,London,SE6 4JU,England,,,,,,,Yes
+loc_45jyqk6n,Holland and Barrett,Unit RP470,One Canada Square,Canary Wharf,London,E14 5AX,England,,,,,,,Yes
+loc_3mny5mvv,Holland and Barrett,Unit 18,Jubilee Place,Canary Wharf,London,E14 5NY,England,,,,,,,Yes
+loc_3xznm6k6,Holland and Barrett,Unit 67,Lewisham Centre,Lewisham,London,SE13 7ER,England,,,,,,,Yes
+loc_4knv5g7q,Holland and Barrett,17 London Road,,East Grinstead,Sussex,RH19 1AL,England,,,,,,,Yes
+loc_46gpy765,Holland and Barrett,Unit SU0051,"Lower Level, Westfield Shopping Centre",Stratford,London,E20 1EH,England,,,,,,,Yes
+loc_3re956nq,Holland and Barrett,18 Market Place,,Louth,Lincolnshire,LN11 9PD,England,,,,,,,Yes
+loc_48znwv96,Holland and Barrett,11-12 The Mall,The Stratford Centre,Stratford,London,E15 1XA,England,,,,,,,Yes
+loc_3ezjgpnv,Holland and Barrett,Unit 34-35 The Mall,,Walthamstow,London,E17 7JR,England,,,,,,,Yes
+loc_47jwp99q,Holland and Barrett,"Unit 716, Icon Outlet","O2 Arena, Peninsula Square",City of London,London,SE10 0DX,England,,,,,,,Yes
+loc_396j2qqy,Holland and Barrett,31 Tranquil Vale,,Blackheath,London,SE3 0BU,England,,,,,,,Yes
+loc_3vzpk66m,Holland and Barrett,216 High Street,Lewes,Brighton,Sussex,BN7 2AF,England,,,,,,,Yes
+loc_4y27m66v,Holland and Barrett,256 The Glades Shopping Centre,High Street,Bromley,Kent,BR1 1DN,England,,,,,,,Yes
+loc_4pkn566k,Holland and Barrett,Tesco Extra 15-18 Viking Way,,Bar Hill,Cambridgeshire,CB23 8EL,England,,,,,,,Yes
+loc_4wkwr66x,Holland and Barrett,354-356 Green Street,,Upton Park,London,E13 9AP,England,,,,,,,Yes
+loc_4n8p5rr5,Holland and Barrett,133a High Street North,,East Ham,London,E6 1HZ,England,,,,,,,Yes
+loc_32597kk9,Holland and Barrett,103 Eltham High Street,,Elthan,London,SE9 1TD,England,,,,,,,Yes
+loc_3ezjgppv,Holland and Barrett,212 High Road,,Loughton,Essex,IG10 1DZ,England,,,,,,,Yes
+loc_3jx96jje,Holland and Barrett,81 Powis Street,,Woolwich,London,SE18 6JB,England,,,,,,,Yes
+loc_3g865nn7,Holland and Barrett,52 Cranbrook Road,,Ilford,Essex,IG1 4NF,England,,,,,,,Yes
+loc_45jyqkkn,Holland and Barrett,162 High Road,,Ilford,Essex,IG1 1LL,England,,,,,,,Yes
+loc_3mny5mmv,Holland and Barrett,"Unit 17, Gallions Reach Shopping Park",3 Armada Way,Beckton,London,E6 7ER,England,,,,,,,Yes
+loc_4zr9m66w,Holland and Barrett,65 High Street,Barkingside,Ilford,Essex,IG6 2AF,England,,,,,,,Yes
+loc_3xznm666,Holland and Barrett,Unit 1 The Vicarage Centre,Ripple Walk,Barking,Essex,IG11 7NR,England,,,,,,,Yes
+loc_4knv5ggq,Holland and Barrett,21a Broad Street,,March,Cambridgeshire,PE15 8TP,England,,,,,,,Yes
+loc_3re9566q,Holland and Barrett,219 High Street,,Orpington,Kent,BR6 0NZ,England,,,,,,,Yes
+loc_48znwvv6,Holland and Barrett,Unit 41-43,High Street,Sidcup,Kent,DA14 6EH,England,,,,,,,Yes
+loc_46gpy775,Holland and Barrett,"Unit B1, Broadwalk Mall",Harvey Centre,Harlow,Essex,CM20 1HX,England,,,,,,,Yes
+loc_47jwp9xq,Holland and Barrett,259 High Street,,Epping,Essex,CM16 4BP,England,,,,,,,Yes
+loc_396j2qky,Holland and Barrett,46 Lion Yard Centre,,Cambridge,Cambridgeshire,CB2 3ET,England,,,,,,,Yes
+loc_3qg7285y,Holland and Barrett,27 Fitzroy Street,,Cambridge,Cambridgeshire,CB1 1ER,England,,,,,,,Yes
+loc_4y27m6pv,Holland and Barrett,Unit 35 The Mall,Broadway Shopping Centre,Bexleyheath,Kent,DA6 7JJ,England,,,,,,,Yes
+loc_4pkn56gk,Holland and Barrett,Unit 3A,Jackson Square,Bishops Stortford,Hertfordshire,CM23 3XG,England,,,,,,,Yes
+loc_4wkwr6qx,Holland and Barrett,Unit 2A,Horsefair Shopping Centre,Wisbech,Cambridgeshire,PE13 1AR,England,,,,,,,Yes
+loc_4n8p5re5,Holland and Barrett,Unit 11,Swanley Shop Centre,Swanley,Kent,BR8 7TG,England,,,,,,,Yes
+loc_32597ke9,Holland and Barrett,4 Town Square,,Erith,London,DA8 1RE,England,,,,,,,Yes
+loc_3ezjgp7v,Holland and Barrett,Unit N4-5,Liberty Centre,Romford,Essex,RM1 3RT,England,,,,,,,Yes
+loc_3jx96jpe,Holland and Barrett,Unit SU22,Blighs Walk,Sevenoaks,Kent,TN13 1DB,England,,,,,,,Yes
+loc_3g865nv7,Holland and Barrett,16-18 High Street,,Dartford,Kent,DA1 1BY,England,,,,,,,Yes
+loc_45jyqk5n,Holland and Barrett,150 High Street,,Hornchurch,London,RM12 6QX,England,,,,,,,Yes
+loc_3mny5m2v,Holland and Barrett,Unit 6 Market Place,,Saffron Walden,Essex,CB10 1HR,England,,,,,,,Yes
+loc_3xznm6y6,Holland and Barrett,4 Station Road,,Upminster,Essex,RM14 2UB,England,,,,,,,Yes
+loc_4zr9m6ww,Holland and Barrett,7 The Quintins,,Hailsham,East Sussex,BN27 1DP,England,,,,,,,Yes
+loc_46gpy785,Holland and Barrett,19 Calverley Road,,Tunbridge Wells,Kent,TN1 2TH,England,,,,,,,Yes
+loc_3qg7282y,Holland and Barrett,10 The Cloisters,,Ely,Cambridgeshire,CB7 4QJ,England,,,,,,,Yes
+loc_3re956mq,Elyte Fitness,Elyte Fitness,Richmond House,Ely,Cambridgeshire,CB7 4AH,England,,,,,,,Yes
+loc_47jwp98q,Holland and Barrett,Unit L023,Lower Rose Gallery,Bluewater,Kent,DA9 9SP,England,,,,,,,Yes
+loc_396j2q9y,Holland and Barrett,27 High Street,,Tonbridge,Kent,TN9 1SQ,England,,,,,,,Yes
+loc_3vzpk6xm,Holland and Barrett,Tesco Extra,Cygnet View,Grays,Essex,RM20 1TX,England,,,,,,,Yes
+loc_4pkn562k,Holland and Barrett,Unit 39-40,Thurrock Lakeside Shopping Centre,Grays,Essex,RM20 2ZF,England,,,,,,,Yes
+loc_4y27m69v,Holland and Barrett,Unit 7,The Arndale Centre,Eastbourne,Sussex,BN21 3NW,England,,,,,,,Yes
+loc_4n8p5rw5,Holland and Barrett,Unit 17,The Bay Tree Centre,Brentwood,Essex,CM14 4BX,England,,,,,,,Yes
+loc_32597kj9,Holland and Barrett,6 Grays Town Centre,,Grays,Essex,RM17 6QE,England,,,,,,,Yes
+loc_3ezjgpmv,Holland and Barrett,37 Lumley Road,,Skegness,Lincolnshire,PE25 3LL,England,,,,,,,Yes
+loc_3jx96jve,Holland and Barrett,8 St. Georges Centre,,Gravesend,Kent,DA11 0TA,England,,,,,,,Yes
+loc_3g865nz7,Holland and Barrett,15 Norfolk Street,,Kings Lynn,Norfolk,PE30 1AR,England,,,,,,,Yes
+loc_45jyqkmn,Holland and Barrett,Unit 7,The Rookery Centre,Newmarket,Suffolk,CB8 8EQ,England,,,,,,,Yes
+loc_3mny5mpv,Holland and Barrett,58 High Street,,Billericay,Essex,CM12 9BS,England,,,,,,,Yes
+loc_3xznm676,Holland and Barrett,17 High Street,,Haverhill,Suffolk,CB9 8AD,England,,,,,,,Yes
+loc_4zr9m6vw,Holland and Barrett,Unit 51A,Eastgate Shopping Centre,Basildon,Essex,SS14 1AE,England,,,,,,,Yes
+loc_4knv5gqq,Holland and Barrett,10 Devonshire Road,,Bexhill,East Sussex,TN40 1AH,England,,,,,,,Yes
+loc_46gpy7x5,Holland and Barrett,19 High Street,,Chelmsford,Essex,CM1 1BE,England,,,,,,,Yes
+loc_3re956jq,Holland and Barrett,19 High Street,,Battle,East Sussex,TN33 0AE,England,,,,,,,Yes
+loc_48znwv76,Holland and Barrett,Tesco Extra,High Road,Pitsea,Essex,SS13 3JU,England,,,,,,,Yes
+loc_47jwp9mq,Holland and Barrett,142 High Street,,Rochester,Kent,ME1 1ER,England,,,,,,,Yes
+loc_396j2qzy,Holland and Barrett,Unit 13,The Willows Shopping Centre,Wickford,Essex,SS12 0RA,England,,,,,,,Yes
+loc_3vzpk68m,Holland and Barrett,Unit 206-207 The Mall,,Maidstone,Kent,ME15 6AS,England,,,,,,,Yes
+loc_3qg728qy,Holland and Barrett,Unit A,203 High Street,Chatham,Kent,ME4 4BG,England,,,,,,,Yes
+loc_4y27m6gv,Holland and Barrett,"Unit 56, Dockside Outlet","Maritime Way, St. Marys Island",Chatham,Kent,ME4 3ED,England,,,,,,,Yes
+loc_4pkn56vk,Holland and Barrett,130 High Street,,Gillingham,Kent,ME7 1AS,England,,,,,,,Yes
+loc_4wkwr6ex,Holland and Barrett,40 Bank Street,,Braintree,Essex,CM7 1UR,England,,,,,,,Yes
+loc_4n8p5r75,Holland and Barrett,"Unit 62, Freeport Village",Charter Way,Braintree,Essex,CM77 8YH,England,,,,,,,Yes
+loc_32597k29,Holland and Barrett,Unit 30 Hempstead Valley Shopping Centre,Hempstead Valley,Gillingham,Kent,ME7 3PB,England,,,,,,,Yes
+loc_3ezjgprv,Holland and Barrett,21 Queens Road,,Hastings,Sussex,TN34 1QY,England,,,,,,,Yes
+loc_3jx96jre,Holland and Barrett,55 High Street,,Rayleigh,Essex,SS6 7EW,England,,,,,,,Yes
+loc_3g865nr7,Holland and Barrett,Unit 6,The Grove shopping Centre,Witham,Essex,CM8 2YT,England,,,,,,,Yes
+loc_45jyqk8n,Holland and Barrett,12 High Street,,Tenterden,Kent,TN30 6AP,England,,,,,,,Yes
+loc_3mny5mrv,Holland and Barrett,185-187 High Street,,Southend,Essex,SS1 1LL,England,,,,,,,Yes
+loc_3xznm6j6,Holland and Barrett,25 Buttermarket,,Bury St. Edmunds,Suffolk,IP33 1DW,England,,,,,,,Yes
+loc_4zr9m65w,Holland and Barrett,3 Old Market Place,,Sudbury,Suffolk,CO10 1RA,England,,,,,,,Yes
+loc_4knv5grq,Holland and Barrett,91 High Street,,Rye,Sussex,TN31 7JE,England,,,,,,,Yes
+loc_46gpy755,Holland and Barrett,99 High Street,,Sittingbourne,Kent,ME10 4AJ,England,,,,,,,Yes
+loc_3re956yq,Holland and Barrett,76 High Street,,Sheerness,Kent,ME12 1TY,England,,,,,,,Yes
+loc_48znwvx6,Holland and Barrett,87 High Street,,Ashford,Kent,TN24 8SQ,England,,,,,,,Yes
+loc_47jwp9kq,Holland and Barrett,17 Culver Walk,,Colchester,Essex,CO1 1XJ,England,,,,,,,Yes
+loc_396j2q8y,Holland and Barrett,Wrights Walk,,Dereham,Norfolk,NR19 1AD,England,,,,,,,Yes
+loc_3vzpk6nm,Holland and Barrett,13 Ipswich Street,,Stowmarket,Suffolk,IP14 1AH,England,,,,,,,Yes
+loc_3qg728vy,Holland and Barrett,55 High Street,,Whitstable,Kent,CT5 1AP,England,,,,,,,Yes
+loc_4y27m6jv,Holland and Barrett,41 High Street,,Canterbury,Kent,CT1 2RY,England,,,,,,,Yes
+loc_4wkwr62x,Holland and Barrett,1-1A Mere Street,,Diss,Norfolk,IP22 4AD,England,,,,,,,Yes
+loc_4n8p5r65,Holland and Barrett,7 Westgate Street,,Ipswich,Suffolk,IP1 3DR,England,,,,,,,Yes
+loc_32597kg9,Holland and Barrett,11 Station Road,,Clacton-on-Sea,Essex,CO15 1TD,England,,,,,,,Yes
+loc_3ezjgp2v,Holland and Barrett,Unit 6,Buttermarket Shopping Centre,Ipswich,Suffolk,IP1 1DT,England,,,,,,,Yes
+loc_3g865nj7,Holland and Barrett,80 Sandgate Road,,Folkestone,Kent,CT20 2AA,England,,,,,,,Yes
+loc_45jyqkxn,Holland and Barrett,51 Station Road,,Sheringham,Norfolk,NR26 8RG,England,,,,,,,Yes
+loc_3xznm6e6,Holland and Barrett,69 Connaught Avenue,,Frinton-on-Sea,Essex,CO13 9PP,England,,,,,,,Yes
+loc_4zr9m6gw,Holland and Barrett,Unit UG21A-B,201 Chantry Place Shopping Centre,Norwich,Norfolk,NR2 1SU,England,,,,,,,Yes
+loc_4knv5gxq,Holland and Barrett,19-21 White Lion Street,,Norwich,Norfolk,NR2 1PX,England,,,,,,,Yes
+loc_3re956qq,Holland and Barrett,Unit 6C,St James,Dover,Kent,CT16 1QD,England,,,,,,,Yes
+loc_48znwv86,Holland and Barrett,44 The Thoroughfare,,Woodbridge,Suffolk,IP12 1AL,England,,,,,,,Yes
+loc_47jwp9zq,Holland and Barrett,91 Hamilton Road,,Felixstowe,Suffolk,IP11 7BQ,England,,,,,,,Yes
+loc_396j2q7y,Holland and Barrett,Unit 18,Westwood Cross,Thanet,Kent,CT10 2BF,England,,,,,,,Yes
+loc_3vzpk62m,Holland and Barrett,38 High Street,,Deal,Kent,CT14 6HE,England,,,,,,,Yes
+loc_3qg7286y,Holland and Barrett,15 The High Street,,Ramsgate,Kent,CT11 9AB,England,,,,,,,Yes
+loc_4y27m6xv,Holland and Barrett,Unit 2,Taylors Square,Beccles,Suffolk,NR34 9QA,England,,,,,,,Yes
+loc_4pkn56zk,Holland and Barrett,31 Market Place,,Great Yarmouth,Norfolk,NR30 1LX,England,,,,,,,Yes
+loc_4wkwr6jx,Holland and Barrett,99 London Road North,,Lowestoft,Suffolk,NR32 1LX,England,,,,,,,Yes
+loc_3vzpk6zm,Planet Organic Ealing,"17 - 21 High Street, Ealing",,London,,W5 5DB,,,,,,,,Yes
+loc_46gpy7g5,Planet Organic Chiswick,201 Chiswick High Road,,London,,W4 2DR,,,,,,,,Yes
+loc_4zr9m6ew,Planet Organic Queen's Park,117-121 Salusbury Rd,,London,,NW6 6RG,,,,,,,,Yes
+loc_46gpy7y5,Planet Organic Westbourne Grove,42 Westbourne Grove,,London,,W2 5SH,,,,,,,,Yes
+loc_3jx96j9e,Planet Organic Hampstead,6 Hampstead High Street,,London,,NW3 1PR,,,,,,,,Yes
+loc_3mny5m9v,Planet Organic Muswell Hill,111-117 Muswell Hill Road,,London,,N10 3HS,,,,,,,,Yes
+loc_3re9568q,Planet Organic Islington,64 Essex Road,,London,,N1 8LR,,,,,,,,Yes
+loc_4zr9m6yw,Planet Organic Spitalfields,The Exchange Building,132 Commercial Street,London,,E1 6NG,,,,,,,,Yes
+loc_47jwp97q,Planet Organic Broadway Market,30 Broadway Market,,London,,E8 4QJ,,,,,,,,Yes
