@@ -16,7 +16,7 @@ test("address lines match the stockist layout", () => {
   assert.deepEqual(search.addressLines(london), [
     "Unit 16, Embankment Shopping Centre",
     "Villiers Street",
-    "Westminster, London WC2N 6NN",
+    "Westminster, WC2N 6NN",
     "England",
   ]);
 });
