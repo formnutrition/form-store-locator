@@ -2,7 +2,7 @@
 
 A replacement for the Stockist widget on the Form store locator page. It is its own site, hosted on Vercel. The WordPress page only gets a short snippet that loads it.
 
-The map is the thing customers see. The admin (at `/admin`) is where locations are added, edited, imported and exported. Locations live in Supabase, not in this git repo.
+The map is the thing customers see. The admin (at `/admin`) is where locations are added, edited, imported and exported. The locations live in table `public.stores` in the existing landers Supabase project, not in this git repo.
 
 ## What customers get
 
@@ -15,21 +15,24 @@ The map is the thing customers see. The admin (at `/admin`) is where locations a
 
 ## One-time setup
 
-You do not need to create anything in this repo by hand. Someone technical (or the hosting screens) fills in the environment variables below, runs one SQL file, then deploys.
+You do not need to create a database. Someone technical fills in the environment variables below, then deploys.
 
-### 1. Supabase — use a new project
+### 1. Supabase — the landers project
 
-Create a **new** Supabase project named something like `form-store-locator`, in **London (eu-west-2)** if it is offered, otherwise Ireland (eu-west-1).
+The stores are already in the **landers** Supabase project, in table `public.stores`.
 
-Do not add this table to the landers project (or QM3, or nutrition). Those projects already hold other data, and the secret key for a project can read and write every table in it. A separate project keeps a mistake here from touching landing pages or anything else. 831 store rows are tiny.
+| | |
+| --- | --- |
+| Project ref | `fadwglwxcbufjdivqapt` |
+| Region | `eu-central-2` |
+| Table | `public.stores` |
+| `SUPABASE_URL` | `https://fadwglwxcbufjdivqapt.supabase.co` |
 
-In the new project, open the SQL editor and run the whole of:
+The table, its indexes, row level security, and the rule that the public can only read visible stores are already applied there. `supabase/migrations/20261120120000_stores.sql` is the record of that. It is marked applied. Running it again will not wipe the rows, but you do not need to run it.
 
-`supabase/migrations/20261120120000_stores.sql`
+Anyone using the public (anon) key can only read stores that are marked visible. There is no permission to add, edit or delete with that key. This app writes with the landers service role key.
 
-That creates the `stores` table and turns on row level security. Anyone using the public (anon) key can only read stores that are marked visible. There is no permission to add, edit or delete with that key. This app writes with the service role key, which stays on the server.
-
-Cost: the Free plan is enough (the database allowance is 500 MB; this table is well under 1 MB). Free projects do pause after a week with no traffic. The store page is visited often enough that this should stay awake. If it ever pauses, open the Supabase dashboard and restore it, or move the project to the Pro plan (about $25 a month) so it never sleeps.
+That key can read and write the **whole landers database**, not only the stores. It must stay on the server. In Vercel, mark `SUPABASE_SERVICE_ROLE_KEY` Sensitive. Never start its name with `NEXT_PUBLIC_`, and never put it in the browser.
 
 ### 2. Google
 
@@ -55,8 +58,8 @@ The cookie is httpOnly (JavaScript on the page cannot read it) and lasts 7 days.
 
 | Variable | What it is |
 | --- | --- |
-| `SUPABASE_URL` | Project URL, like `https://xxxx.supabase.co` |
-| `SUPABASE_SERVICE_ROLE_KEY` | The service_role secret, or the newer secret key that starts with `sb_secret_` |
+| `SUPABASE_URL` | The landers project URL: `https://fadwglwxcbufjdivqapt.supabase.co` |
+| `SUPABASE_SERVICE_ROLE_KEY` | The landers service_role secret, or the newer secret key that starts with `sb_secret_`. This key opens the whole landers database. Server only. Mark it Sensitive in Vercel. |
 
 Do not create `NEXT_PUBLIC_SUPABASE_URL` or put the service key anywhere the browser can see. The public map asks this app for the store list. It never talks to Supabase itself.
 
@@ -64,9 +67,9 @@ Copy `.env.example` to `.env.local` for a laptop. On Vercel, add the same names 
 
 ## Deploy on Vercel
 
-1. Import this GitHub repo as a new Vercel project (do not attach it to the landers project).
-2. Add the environment variables above.
-3. Deploy. The project is set to run in London (`lhr1`), next to a London database.
+1. Import this GitHub repo as its own Vercel project. The website is separate from landers. The database is the landers Supabase project.
+2. Add the environment variables above. `SUPABASE_URL` is `https://fadwglwxcbufjdivqapt.supabase.co`. Mark `SUPABASE_SERVICE_ROLE_KEY` Sensitive.
+3. Deploy. The site runs in London. The stores stay in the landers database in `eu-central-2`.
 4. The site URL is the one you paste into WordPress.
 
 Vercel’s free or existing team plan is enough. There is no extra app server to run.
@@ -94,7 +97,7 @@ You can leave that rule in place. You do not need to edit it.
 
 The file `data/stores-uk-ie.csv` is the Stockist export (831 UK, Ireland and Channel Islands stores). Nine rows had a blank country but a London postcode; those are saved as England. The original file is unchanged.
 
-After the env vars and the SQL are in place:
+After the env vars are in place (the table is already there):
 
 ```bash
 npm install
@@ -139,6 +142,6 @@ Until Supabase is connected, the site falls back to `data/seed-stores.json` so y
 
 ## Not done from here
 
-This repo does not create the Supabase project and does not run the SQL against a live database. That is a separate step, on purpose.
+The `public.stores` table is already in the landers project. This repo does not connect to that database until `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` are set, and it does not load the 831 stores until `npm run import:stores` is run.
 
 A Google browser key was not available while this was built, so the map in local screenshots uses OpenStreetMap tiles as a stand-in. With `NEXT_PUBLIC_GOOGLE_MAPS_KEY` set, customers get Google Maps and address suggestions. The OpenStreetMap stand-in is only used when that key is missing.

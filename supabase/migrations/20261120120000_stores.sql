@@ -1,21 +1,19 @@
 -- Store locator locations.
 --
--- Run this once in a new Supabase project (SQL editor or the Supabase CLI).
--- It creates the stores table, turns on row level security, and lets the
--- public read visible stores only. There is no policy for insert, update,
--- or delete. The Next.js server writes with the service_role key, which
--- bypasses row level security. The anon and publishable keys cannot change
--- rows even if someone finds them.
-
-create schema if not exists private;
-
-revoke all on schema private from public;
-revoke all on schema private from anon, authenticated;
-grant usage on schema private to postgres, service_role;
+-- ALREADY APPLIED to the landers Supabase project
+-- (ref fadwglwxcbufjdivqapt, region eu-central-2), table public.stores.
+-- The columns, indexes, row level security and the public read policy
+-- below are already there. Do not treat this file as a reason to create
+-- another Supabase project.
+--
+-- Running it again is safe. It will not drop the table or the rows.
+-- The private schema already existed in landers, so this file does not
+-- change grants on that schema.
 
 create or replace function private.set_stores_updated_at()
 returns trigger
 language plpgsql
+set search_path = ''
 as $$
 begin
   new.updated_at = now();
@@ -26,7 +24,7 @@ $$;
 revoke all on function private.set_stores_updated_at() from public, anon, authenticated;
 grant execute on function private.set_stores_updated_at() to postgres, service_role;
 
-create table public.stores (
+create table if not exists public.stores (
   id uuid primary key default gen_random_uuid(),
   stockist_id text not null unique,
   name text not null,
@@ -56,9 +54,10 @@ create table public.stores (
   )
 );
 
-create index stores_visible_idx on public.stores (visible);
-create index stores_lat_lng_idx on public.stores (latitude, longitude);
+create index if not exists stores_visible_idx on public.stores (visible);
+create index if not exists stores_lat_lng_idx on public.stores (latitude, longitude);
 
+drop trigger if exists stores_set_updated_at on public.stores;
 create trigger stores_set_updated_at
   before update on public.stores
   for each row
@@ -73,6 +72,7 @@ revoke all on table public.stores from public, anon, authenticated;
 grant select on table public.stores to anon, authenticated;
 grant select, insert, update, delete on table public.stores to service_role;
 
+drop policy if exists "Visible stores are public" on public.stores;
 create policy "Visible stores are public"
   on public.stores
   for select

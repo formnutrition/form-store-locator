@@ -163,6 +163,10 @@ test("migration locks down writes and exposes only visible stores", async () => 
     "utf8"
   );
   const code = sql.replace(/--.*$/gm, "");
+  assert.match(sql, /ALREADY APPLIED/);
+  assert.match(sql, /fadwglwxcbufjdivqapt/);
+  assert.match(code, /set search_path = ''/);
+  assert.doesNotMatch(code, /revoke all on schema private/i);
   assert.match(code, /enable row level security/i);
   assert.match(code, /force row level security/i);
   assert.match(code, /for select/);
