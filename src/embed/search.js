@@ -64,6 +64,18 @@
     return /^[a-z]{1,2}\d/.test(value) || /^[a-z]\d{2}[a-z0-9]{0,4}$/.test(value);
   }
 
+  /** Outward code, so "W12 8AA" is W12 and "W1 2AB" is W1, not W12. An Eircode's routing key is its first three characters. */
+  function outwardCode(postal) {
+    var compact = compactPostcode(postal);
+    if (/^[a-z]\d{2}[a-z0-9]{4}$/.test(compact)) return compact.slice(0, 3);
+    if (compact.length >= 5) return compact.slice(0, -3);
+    return compact;
+  }
+
+  function isEircode(postal) {
+    return /^[a-z]\d{2}[a-z0-9]{4}$/.test(compactPostcode(postal));
+  }
+
   /**
    * Guess a map point from the stores we already have, so a postcode or city
    * still works before Google Places is available.
@@ -83,9 +95,16 @@
     if (exact.length) return centroid(exact);
 
     if (looksLikePostcode(compact)) {
-      var prefixed = rows.filter(function (store) {
-        return compactPostcode(store.postalCode).indexOf(compact) === 0;
+      var ukMatches = [];
+      var eircodeMatches = [];
+      rows.forEach(function (store) {
+        var outward = outwardCode(store.postalCode);
+        if (!(outward === compact || outward.indexOf(compact) === 0)) return;
+        if (isEircode(store.postalCode)) eircodeMatches.push(store);
+        else ukMatches.push(store);
       });
+      // "W12" is both a London district and an Irish routing key. Prefer the UK postcode.
+      var prefixed = ukMatches.length ? ukMatches : eircodeMatches;
       if (prefixed.length) return centroid(prefixed);
     }
 
@@ -140,6 +159,22 @@
       .slice(0, limit);
   }
 
+  /**
+   * Opening frame. A bounds-fit of Shetland to Cornwall in a wide map pane
+   * zooms out far enough to show Norway and Denmark. A fixed centre and zoom
+   * keeps the UK and Ireland in frame on both the desktop map and the short
+   * phone map.
+   */
+  function openingView(isMobile) {
+    return {
+      lat: 54,
+      lng: -5,
+      zoom: isMobile ? 5 : 6,
+    };
+  }
+
+  var placeRegionCodes = ["gb", "ie", "je", "gg", "im"];
+
   return {
     haversineKm: haversineKm,
     formatDistance: formatDistance,
@@ -148,5 +183,7 @@
     resultsForOrigin: resultsForOrigin,
     inBounds: inBounds,
     centroid: centroid,
+    openingView: openingView,
+    placeRegionCodes: placeRegionCodes,
   };
 });

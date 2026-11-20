@@ -176,6 +176,14 @@ test("migration locks down writes and exposes only visible stores", async () => 
   assert.doesNotMatch(code, /create policy[\s\S]{0,200}for (insert|update|delete|all)/i);
 });
 
+test("search uses Places API (New), not the legacy autocomplete widget", async () => {
+  const js = await readFile(path.join(process.cwd(), "src/embed/locator.js"), "utf8");
+  assert.match(js, /fetchAutocompleteSuggestions/);
+  assert.match(js, /openingView/);
+  assert.doesNotMatch(js, /new google\.maps\.places\.Autocomplete\b/);
+  assert.doesNotMatch(js, /initialBounds/);
+});
+
 test("the embed loader stays lazy and forces itself visible", async () => {
   const js = await readFile(path.join(process.cwd(), "public/embed.js"), "utf8");
   assert.match(js, /IntersectionObserver/);

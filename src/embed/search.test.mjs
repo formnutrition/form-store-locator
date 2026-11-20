@@ -21,6 +21,16 @@ test("address lines match the stockist layout", () => {
   ]);
 });
 
+test("the map opens on the UK and Ireland, and address search stays in these countries", () => {
+  const desktop = search.openingView(false);
+  const mobile = search.openingView(true);
+  assert.equal(desktop.zoom, 6);
+  assert.equal(mobile.zoom, 5);
+  assert.ok(desktop.lat > 52 && desktop.lat < 56);
+  assert.ok(desktop.lng < -3 && desktop.lng > -8);
+  assert.deepEqual(search.placeRegionCodes, ["gb", "ie", "je", "gg", "im"]);
+});
+
 test("a postcode or city becomes a search point and results sort nearest first", () => {
   const stores = [london, dublin, { ...london, id: "3", postalCode: "WC2N 5DU", lat: 51.51, lng: -0.12 }];
   const origin = search.originFromQuery(stores, "wc2n");
@@ -30,4 +40,9 @@ test("a postcode or city becomes a search point and results sort nearest first",
   assert.ok(rows[0].distance <= rows[1].distance);
   assert.equal(search.originFromQuery(stores, "Tralee").lat, dublin.lat);
   assert.equal(search.originFromQuery(stores, "zzzz"), null);
+  var westLondon = { ...london, id: "w12", postalCode: "W12 8AA", lat: 51.51, lng: -0.23 };
+  var westEnd = { ...london, id: "w1", postalCode: "W1 2AB", lat: 51.51, lng: -0.14 };
+  var newbridge = { ...dublin, id: "eir", postalCode: "W12 CD45", lat: 53.18, lng: -6.8 };
+  var fromW12 = search.originFromQuery([westLondon, westEnd, newbridge], "W12");
+  assert.equal(fromW12.lng, westLondon.lng);
 });

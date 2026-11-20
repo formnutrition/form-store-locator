@@ -12,6 +12,7 @@
   var mapEl = document.getElementById("map");
   var form = document.getElementById("search-form");
   var pickedPlace = false;
+  var pickingSuggestion = false;
 
   var state = {
     stores: [],
@@ -293,20 +294,16 @@
   }
 
   function createGoogleAdapter() {
-    var bounds = cfg.initialBounds;
+    var view = search.openingView(isMobile());
     var map = new google.maps.Map(mapEl, {
+      center: { lat: view.lat, lng: view.lng },
+      zoom: view.zoom,
       mapTypeControl: false,
       streetViewControl: false,
       fullscreenControl: false,
       gestureHandling: "greedy",
       clickableIcons: false,
     });
-    map.fitBounds(
-      new google.maps.LatLngBounds(
-        { lat: bounds.south, lng: bounds.west },
-        { lat: bounds.north, lng: bounds.east }
-      )
-    );
     var overlay = new google.maps.OverlayView();
     overlay.onAdd = function () {};
     overlay.draw = function () {};
@@ -405,14 +402,18 @@
   }
 
   function createLeafletAdapter(L) {
-    var bounds = cfg.initialBounds;
-    var map = L.map(mapEl, { zoomControl: false, attributionControl: true });
+    var view = search.openingView(isMobile());
+    var map = L.map(mapEl, {
+      zoomControl: false,
+      attributionControl: true,
+      center: [view.lat, view.lng],
+      zoom: view.zoom,
+    });
     L.control.zoom({ position: "bottomright" }).addTo(map);
     L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 19,
       attribution: "&copy; OpenStreetMap",
     }).addTo(map);
-    map.fitBounds([[bounds.south, bounds.west], [bounds.north, bounds.east]]);
     var layer = L.layerGroup().addTo(map);
     var idleFn = function () {};
     map.on("moveend", function () { idleFn(); });
@@ -477,20 +478,175 @@
     };
   }
 
+  /**
+   * Address suggestions use Places API (New): AutocompleteSuggestion and Place.fetchFields.
+   * The old google.maps.places.Autocomplete widget calls the legacy Places API, which this
+   * key cannot use, and Google then draws an error inside the dropdown.
+   */
   function attachAutocomplete() {
-    if (!window.google || !google.maps.places) return;
-    var autocomplete = new google.maps.places.Autocomplete(input, {
-      types: ["geocode"],
-      fields: ["geometry", "formatted_address"],
-    });
-    autocomplete.addListener("place_changed", function () {
-      var place = autocomplete.getPlace();
-      if (!place || !place.geometry || !place.geometry.location) return;
+    var loadPlaces = google.maps.importLibrary
+      ? google.maps.importLibrary("places")
+      : Promise.resolve(google.maps.places || {});
+    loadPlaces.then(wireSuggestions).catch(function () {});
+  }
+
+  function predictionText(value) {
+    if (!value) return "";
+    if (typeof value === "string") return value;
+    if (typeof value.text === "string") return value.text;
+    if (typeof value.toString === "function") {
+      var text = value.toString();
+      if (text && text !== "[object Object]") return text;
+    }
+    return "";
+  }
+
+  function wireSuggestions(places) {
+    if (!places.AutocompleteSuggestion || !places.AutocompleteSessionToken) return;
+    var box = document.createElement("div");
+    box.className = "suggestions";
+    box.hidden = true;
+    box.setAttribute("role", "listbox");
+    form.appendChild(box);
+
+    var sessionToken = null;
+    var rows = [];
+    var activeIndex = -1;
+    var suggestTimer = 0;
+    var requestId = 0;
+
+    function token() {
+      if (!sessionToken) sessionToken = new places.AutocompleteSessionToken();
+      return sessionToken;
+    }
+
+    function hideSuggestions() {
+      box.hidden = true;
+      box.replaceChildren();
+      rows = [];
+      activeIndex = -1;
+      input.setAttribute("aria-expanded", "false");
+    }
+
+    function renderSuggestions() {
+      box.style.top = input.offsetTop + input.offsetHeight + 4 + "px";
+      box.replaceChildren();
+      if (!rows.length) {
+        hideSuggestions();
+        return;
+      }
+      rows.forEach(function (row, index) {
+        var button = document.createElement("button");
+        button.type = "button";
+        button.className = "suggestion" + (index === activeIndex ? " is-active" : "");
+        button.setAttribute("role", "option");
+        button.textContent = row.label;
+        button.addEventListener("mousedown", function (event) {
+          event.preventDefault();
+        });
+        button.addEventListener("click", function () {
+          chooseSuggestion(row.prediction);
+        });
+        box.appendChild(button);
+      });
+      box.hidden = false;
+      input.setAttribute("aria-expanded", "true");
+    }
+
+    function chooseSuggestion(prediction) {
+      var place = prediction.toPlace();
+      hideSuggestions();
+      window.clearTimeout(suggestTimer);
+      window.clearTimeout(typingTimer);
       pickedPlace = true;
-      applyOrigin(
-        { lat: place.geometry.location.lat(), lng: place.geometry.location.lng() },
-        true
-      );
+      var label = predictionText(prediction.text);
+      if (label) {
+        pickingSuggestion = true;
+        input.value = label;
+        pickingSuggestion = false;
+      }
+      place
+        .fetchFields({ fields: ["location"] })
+        .then(function () {
+          sessionToken = null;
+          var loc = place.location;
+          var lat = loc && typeof loc.lat === "function" ? loc.lat() : loc && loc.lat;
+          var lng = loc && typeof loc.lng === "function" ? loc.lng() : loc && loc.lng;
+          if (typeof lat !== "number" || typeof lng !== "number") {
+            pickedPlace = false;
+            commitTyped();
+            return;
+          }
+          applyOrigin({ lat: lat, lng: lng }, true);
+        })
+        .catch(function () {
+          sessionToken = null;
+          pickedPlace = false;
+          commitTyped();
+        });
+    }
+
+    input.setAttribute("role", "combobox");
+    input.setAttribute("aria-autocomplete", "list");
+    input.setAttribute("aria-expanded", "false");
+
+    input.addEventListener("input", function () {
+      if (pickingSuggestion) return;
+      window.clearTimeout(suggestTimer);
+      var value = input.value.trim();
+      if (value.length < 2) {
+        hideSuggestions();
+        sessionToken = null;
+        return;
+      }
+      suggestTimer = window.setTimeout(function () {
+        var current = ++requestId;
+        places.AutocompleteSuggestion.fetchAutocompleteSuggestions({
+          input: value,
+          sessionToken: token(),
+          includedRegionCodes: search.placeRegionCodes,
+          language: "en-GB",
+          region: "gb",
+        })
+          .then(function (result) {
+            if (current !== requestId || input.value.trim() !== value) return;
+            rows = (result.suggestions || [])
+              .map(function (suggestion) { return suggestion.placePrediction; })
+              .filter(Boolean)
+              .slice(0, 6)
+              .map(function (prediction) {
+                return { prediction: prediction, label: predictionText(prediction.text) };
+              })
+              .filter(function (row) { return row.label; });
+            activeIndex = -1;
+            renderSuggestions();
+          })
+          .catch(function () {
+            if (current === requestId) hideSuggestions();
+          });
+      }, 200);
+    });
+
+    input.addEventListener("keydown", function (event) {
+      if (box.hidden) return;
+      if (event.key === "ArrowDown") {
+        event.preventDefault();
+        activeIndex = Math.min(rows.length - 1, activeIndex + 1);
+        renderSuggestions();
+      } else if (event.key === "ArrowUp") {
+        event.preventDefault();
+        activeIndex = Math.max(-1, activeIndex - 1);
+        renderSuggestions();
+      } else if (event.key === "Escape") {
+        hideSuggestions();
+      } else if (event.key === "Enter" && activeIndex >= 0) {
+        event.preventDefault();
+        chooseSuggestion(rows[activeIndex].prediction);
+      }
+    });
+
+    document.addEventListener("click", function (event) {
+      if (!form.contains(event.target)) hideSuggestions();
     });
   }
 
@@ -547,6 +703,7 @@
 
   var typingTimer = 0;
   input.addEventListener("input", function () {
+    if (pickingSuggestion) return;
     pickedPlace = false;
     window.clearTimeout(typingTimer);
     var value = input.value;

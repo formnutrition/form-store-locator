@@ -32,7 +32,31 @@ button, input, select { font: inherit; color: inherit; }
   text-align: center;
   color: #4a4a4a;
 }
-.search { padding: 12px 14px 8px; }
+.search { position: relative; z-index: 2; padding: 12px 14px 8px; }
+.suggestions {
+  position: absolute;
+  z-index: 5;
+  left: 14px;
+  right: 14px;
+  top: 48px;
+  max-height: 240px;
+  overflow: auto;
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+.suggestion {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: #fff;
+  border: 0;
+  border-bottom: 1px solid #eee;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+.suggestion:last-child { border-bottom: 0; }
+.suggestion:hover, .suggestion.is-active { background: #fbf8ee; }
 .search input {
   width: 100%;
   border: 1px solid #ccc;
