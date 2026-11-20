@@ -1,6 +1,8 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
+import { headers } from "next/headers";
 import { locatorSettings, messages } from "@/lib/messages";
+import { placeFromIpHeaders } from "@/lib/visitor-place";
 
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
@@ -10,6 +12,13 @@ function jsString(value: unknown): string {
 }
 
 export async function GET() {
+  const requestHeaders = await headers();
+  // Already on this request. No second lookup, and nothing is logged or stored.
+  const initialPlace = placeFromIpHeaders({
+    country: requestHeaders.get("x-vercel-ip-country"),
+    latitude: requestHeaders.get("x-vercel-ip-latitude"),
+    longitude: requestHeaders.get("x-vercel-ip-longitude"),
+  });
   const dir = path.join(process.cwd(), "src", "embed");
   const [css, searchJs, locatorJs] = await Promise.all([
     readFile(path.join(dir, "locator.css"), "utf8"),
@@ -34,7 +43,7 @@ export async function GET() {
     maxResults: locatorSettings.maxResults,
     desktopBreakpoint: locatorSettings.desktopBreakpoint,
     desktopHeight: locatorSettings.desktopHeight,
-    initialBounds: locatorSettings.initialBounds,
+    initialPlace,
   };
 
   const radiusOptions = locatorSettings.radiusOptions
@@ -60,9 +69,12 @@ export async function GET() {
     <form id="search-form" class="search" role="search" autocomplete="off">
       <label class="sr-only" for="q">Search by postcode or address</label>
       <input id="q" name="q" type="search" enterkeyhint="search" placeholder="${messages.searchPlaceholder}" autocomplete="off">
-      <label class="radius">Within
-        <select id="radius" aria-label="Search radius">${radiusOptions}</select>
-      </label>
+      <div class="tools">
+        <label class="radius">Within
+          <select id="radius" aria-label="Search radius">${radiusOptions}</select>
+        </label>
+        <button type="button" id="locate" class="locate">Use my location</button>
+      </div>
     </form>
     <div id="list" class="list"></div>
   </section>
@@ -77,7 +89,8 @@ export async function GET() {
   return new Response(html, {
     headers: {
       "Content-Type": "text/html; charset=utf-8",
-      "Cache-Control": "public, max-age=300",
+      // Private: the page includes this visitor's approximate place. Do not cache it on a shared CDN.
+      "Cache-Control": "private, no-store",
     },
   });
 }

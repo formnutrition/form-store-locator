@@ -21,13 +21,11 @@ test("address lines match the stockist layout", () => {
   ]);
 });
 
-test("the map opens on the UK and Ireland, and address search stays in these countries", () => {
-  const desktop = search.openingView(false);
-  const mobile = search.openingView(true);
-  assert.equal(desktop.zoom, 6);
-  assert.equal(mobile.zoom, 5);
-  assert.ok(desktop.lat > 52 && desktop.lat < 56);
-  assert.ok(desktop.lng < -3 && desktop.lng > -8);
+test("without an IP place the map opens on central London at city zoom", () => {
+  const view = search.openingView();
+  assert.equal(view.lat, 51.5074);
+  assert.equal(view.lng, -0.1278);
+  assert.equal(view.zoom, 12);
   assert.deepEqual(search.placeRegionCodes, ["gb", "ie", "je", "gg", "im"]);
 });
 

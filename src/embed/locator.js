@@ -226,21 +226,45 @@
     });
   }
 
+  function startPlace() {
+    var place = cfg.initialPlace;
+    if (place && typeof place.lat === "number" && typeof place.lng === "number") {
+      return { lat: place.lat, lng: place.lng };
+    }
+    var fallback = search.openingView();
+    return { lat: fallback.lat, lng: fallback.lng };
+  }
+
+  function showNearby(origin) {
+    state.mode = "results";
+    state.origin = origin;
+    state.status = "";
+    state.statusTone = "hint";
+    var rows = resultRows();
+    if (!rows.length) {
+      state.status = cfg.messages.noResults;
+      state.statusTone = "error";
+    }
+    if (state.adapter) state.adapter.setView(origin.lat, origin.lng, search.openingView().zoom);
+    renderList(rows, true);
+  }
+
+  /** Browser location only. Called from the Use my location button, never on load. */
   function tryGeolocation() {
-    if (!isMobile() || !navigator.geolocation || !window.isSecureContext) return;
+    if (!navigator.geolocation || !window.isSecureContext) {
+      state.status = cfg.messages.geolocationError;
+      state.statusTone = "error";
+      renderList(resultRows(), true);
+      return;
+    }
     navigator.geolocation.getCurrentPosition(
       function (position) {
-        if (state.mode === "results" && input.value.trim()) return;
-        applyOrigin(
-          { lat: position.coords.latitude, lng: position.coords.longitude },
-          true
-        );
+        showNearby({ lat: position.coords.latitude, lng: position.coords.longitude });
       },
       function () {
-        if (state.mode === "results") return;
         state.status = cfg.messages.geolocationError;
         state.statusTone = "error";
-        renderList([], false);
+        renderList(resultRows(), true);
       },
       { enableHighAccuracy: false, timeout: 8000, maximumAge: 300000 }
     );
@@ -294,9 +318,10 @@
   }
 
   function createGoogleAdapter() {
-    var view = search.openingView(isMobile());
+    var place = startPlace();
+    var view = search.openingView();
     var map = new google.maps.Map(mapEl, {
-      center: { lat: view.lat, lng: view.lng },
+      center: { lat: place.lat, lng: place.lng },
       zoom: view.zoom,
       mapTypeControl: false,
       streetViewControl: false,
@@ -342,6 +367,10 @@
       panTo: function (lat, lng) {
         map.panTo({ lat: lat, lng: lng });
         if ((map.getZoom() || 0) < 14) map.setZoom(14);
+      },
+      setView: function (lat, lng, zoom) {
+        map.setCenter({ lat: lat, lng: lng });
+        map.setZoom(zoom);
       },
       fitStores: function (stores) {
         if (!stores.length) return;
@@ -402,11 +431,12 @@
   }
 
   function createLeafletAdapter(L) {
-    var view = search.openingView(isMobile());
+    var place = startPlace();
+    var view = search.openingView();
     var map = L.map(mapEl, {
       zoomControl: false,
       attributionControl: true,
-      center: [view.lat, view.lng],
+      center: [place.lat, place.lng],
       zoom: view.zoom,
     });
     L.control.zoom({ position: "bottomright" }).addTo(map);
@@ -440,6 +470,9 @@
       },
       panTo: function (lat, lng) {
         var zoom = Math.max(map.getZoom(), 14);
+        map.setView([lat, lng], zoom);
+      },
+      setView: function (lat, lng, zoom) {
         map.setView([lat, lng], zoom);
       },
       fitStores: function (stores) {
@@ -732,6 +765,44 @@
     new ResizeObserver(reportHeight).observe(document.getElementById("locator"));
   }
 
+  var locateButton = document.getElementById("locate");
+  if (locateButton) locateButton.addEventListener("click", tryGeolocation);
+
+  state.origin = startPlace();
+  state.mode = "results";
+
+  function bootMap() {
+    return loadGoogle().then(
+      function () {
+        state.adapter = createGoogleAdapter();
+        attachAutocomplete();
+      },
+      function () {
+        if (cfg.mapsKey) {
+          showMapMessage("The map couldn't be loaded. Search still works.");
+          return null;
+        }
+        return loadLeaflet().then(function (L) {
+          state.adapter = createLeafletAdapter(L);
+        });
+      }
+    ).then(function () {
+      if (state.adapter) {
+        state.adapter.onIdle(onMapIdle);
+        window.setTimeout(onMapIdle, 350);
+      }
+      if (state.stores.length) showNearby(state.origin);
+      reportHeight();
+    });
+  }
+
+  // Map first, with London or the IP place already known. Stores fill the list when they arrive.
+  bootMap().catch(function () {
+    state.status = cfg.messages.genericError;
+    state.statusTone = "error";
+    renderList([], false);
+  });
+
   fetch(cfg.storesUrl, { headers: { accept: "application/json" } })
     .then(function (response) {
       if (!response.ok) throw new Error("stores");
@@ -739,30 +810,9 @@
     })
     .then(function (data) {
       state.stores = data.stores || [];
-      return loadGoogle().then(
-        function () {
-          state.adapter = createGoogleAdapter();
-          attachAutocomplete();
-        },
-        function () {
-          if (cfg.mapsKey) {
-            showMapMessage("The map couldn't be loaded. Search still works.");
-            return null;
-          }
-          return loadLeaflet().then(function (L) {
-            state.adapter = createLeafletAdapter(L);
-          });
-        }
-      );
-    })
-    .then(function () {
-      if (state.adapter) {
-        state.adapter.onIdle(onMapIdle);
-        window.setTimeout(onMapIdle, 350);
-      }
-      renderList([], false);
-      tryGeolocation();
-      reportHeight();
+      if (!input.value.trim()) showNearby(startPlace());
+      else renderList(resultRows(), state.mode === "results");
+      if (state.adapter) state.adapter.sync(visibleStores(), onMarkerPick);
     })
     .catch(function () {
       state.status = cfg.messages.genericError;

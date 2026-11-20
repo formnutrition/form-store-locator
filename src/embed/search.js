@@ -159,17 +159,12 @@
       .slice(0, limit);
   }
 
-  /**
-   * Opening frame. A bounds-fit of Shetland to Cornwall in a wide map pane
-   * zooms out far enough to show Norway and Denmark. A fixed centre and zoom
-   * keeps the UK and Ireland in frame on both the desktop map and the short
-   * phone map.
-   */
-  function openingView(isMobile) {
+  /** Central London. Used when the visitor is not in the UK, Ireland, or the Crown Dependencies. */
+  function openingView() {
     return {
-      lat: 54,
-      lng: -5,
-      zoom: isMobile ? 5 : 6,
+      lat: 51.5074,
+      lng: -0.1278,
+      zoom: 12,
     };
   }
 

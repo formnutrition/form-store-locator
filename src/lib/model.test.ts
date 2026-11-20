@@ -180,6 +180,8 @@ test("search uses Places API (New), not the legacy autocomplete widget", async (
   const js = await readFile(path.join(process.cwd(), "src/embed/locator.js"), "utf8");
   assert.match(js, /fetchAutocompleteSuggestions/);
   assert.match(js, /openingView/);
+  assert.match(js, /getElementById\("locate"\)/);
+  assert.doesNotMatch(js, /tryGeolocation\(\);/);
   assert.doesNotMatch(js, /new google\.maps\.places\.Autocomplete\b/);
   assert.doesNotMatch(js, /initialBounds/);
 });
